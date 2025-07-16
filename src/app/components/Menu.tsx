@@ -45,30 +45,22 @@ export default function Menu() {
           height={30}
           alt="macedonian language"
         />
-        <Image
-          className={language === "ita" ? "languageSelected" : "language"}
-          onClick={() => setLanguage("ita")}
-          src={"/images/flags/ita.svg"}
-          width={30}
-          height={30}
-          alt="italian language"
-        />
-        <Image
-          className={language === "eng" ? "languageSelected" : "language"}
-          onClick={() => setLanguage("eng")}
-          src={"/images/flags/eng.svg"}
-          width={30}
-          height={30}
-          alt="english language"
-        />
-        <Image
-          className={language === "alb" ? "languageSelected" : "language"}
-          onClick={() => setLanguage("alb")}
-          src={"/images/flags/alb.svg"}
-          width={30}
-          height={30}
-          alt="albanian language"
-        />
+            <Image
+              className={language === "eng" ? "languageSelected" : "language"}
+              onClick={() => setLanguage("eng")}
+              src={"/images/flags/eng.svg"}
+              width={30}
+              height={30}
+              alt="english language"
+            />
+          <Image
+            className={language === "alb" ? "languageSelected" : "language"}
+            onClick={() => setLanguage("alb")}
+            src={"/images/flags/alb.svg"}
+            width={30}
+            height={30}
+            alt="albanian language"
+          />
         <Image
           className={language === "gr" ? "languageSelected" : "language"}
           onClick={() => setLanguage("gr")}
@@ -76,6 +68,14 @@ export default function Menu() {
           width={30}
           height={30}
           alt="greek language"
+        />
+        <Image
+          className={language === "ita" ? "languageSelected" : "language"}
+          onClick={() => setLanguage("ita")}
+          src={"/images/flags/ita.svg"}
+          width={30}
+          height={30}
+          alt="italian language"
         />
       </div>
 
@@ -103,11 +103,11 @@ export default function Menu() {
         )}
       </div>
 <Link href="tel:+38978669092" className="phoneNumber">
-  {language === "mk" && <span>Јави се на: 078-669-092</span>}
-  {language === "eng" && <span>Call us: 078-669-092</span>}
-  {language === "alb" && <span>Na telefononi: 078-669-092</span>}
-  {language === "gr" && <span>Καλέστε μας: 078-669-092</span>}
-  {language === "ita" && <span>Chiamaci: 078-669-092</span>}
+  {language === "mk" && <span>📞 Јави се на: 078-669-092</span>}
+  {language === "eng" && <span>📞 Call us: 078-669-092</span>}
+  {language === "alb" && <span>📞 Na telefononi: 078-669-092</span>}
+  {language === "gr" && <span>📞 Καλέστε μας: 078-669-092</span>}
+  {language === "ita" && <span>📞 Chiamaci: 078-669-092</span>}
 </Link>
     </div>
   );

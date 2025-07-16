@@ -70,10 +70,14 @@
   margin-bottom: 0.5rem;
   color: #fff;
 }
+.pizzaName::selection {
+  background-color: red;
+}
 
 .descriptionWrapper {
   display: flex;
   flex-wrap: wrap;
+  width: 90%;
   gap: 0.3rem;
   margin-bottom: 1rem;
 }
@@ -82,7 +86,9 @@
   font-size: 0.9rem;
   color: #ccc;
 }
-
+.descriptionItem::selection{
+  background-color: green;
+}
 .priceBox {
   position: absolute;
   right: 0;
