@@ -14,7 +14,7 @@
   {
     "name": "Capricciosa",
     "price": 330,
-    "description": ["tomato sauce", "yellow cheese", "ham", "mushrooms", "oregano", "extra virgin olive oil"],
+    "description": ["tomato sauce", "kashkaval cheese", "ham", "mushrooms", "oregano", "extra virgin olive oil"],
     "category": "pizze"
   },
   {
@@ -31,14 +31,14 @@
   },
   {
     "name": "Valtellina",
-    "price": 380,
-    "description": ["tomato sauce", "mozzarella", "arugula", "prosciutto", "fresh tomato", "parmesan flakes"],
+    "price": 440,
+    "description": ["tomato sauce", "mozzarella", "arugula", "prosciutto", "fresh tomato", "parmesan shavings"],
     "category": "pizze"
   },
   {
     "name": "Il Baffo",
     "price": 420,
-    "description": ["tomato sauce", "mozzarella", "mortadella", "stracciatella with truffle oil", "pistachios", "sun-dried tomatoes"],
+    "description": ["cream", "mozzarella", "mortadella", "stracciatella with truffle oil", "pistachios", "sun-dried tomatoes"],
     "category": "pizze"
   },
   {
@@ -56,7 +56,7 @@
   {
     "name": "Wurstel",
     "price": 350,
-    "description": ["tomato sauce", "mozzarella", "sausages", "fries"],
+    "description": ["tomato sauce", "mozzarella", "wurstel sausage", "french fries"],
     "category": "pizze"
   },
   {
@@ -67,14 +67,14 @@
   },
   {
     "name": "Peperoni Maiale/Manzo",
-    "price": 360,
-    "description": ["tomato sauce", "yellow cheese", "oregano", "kulen / sujuk", "extra virgin olive oil"],
+    "price": 380,
+    "description": ["tomato sauce", "kashkaval cheese", "oregano", "kulen / sujuk", "extra virgin olive oil"],
     "category": "pizze"
   },
   {
     "name": "Quattro salumi",
     "price": 390,
-    "description": ["tomato sauce", "yellow cheese", "pork neck", "bacon", "kulen", "dry sausage", "extra virgin olive oil"],
+    "description": ["tomato sauce", "kashkaval cheese", "neck meat", "bacon", "kulen", "dry sausage", "extra virgin olive oil"],
     "category": "pizze"
   },
   {
@@ -92,7 +92,7 @@
   {
     "name": "Regina",
     "price": 430,
-    "description": ["cream", "mozzarella", "porcini", "smoked prosciutto"],
+    "description": ["cream", "mozzarella", "porcini mushrooms", "smoked prosciutto"],
     "category": "pizze"
   }
 ]

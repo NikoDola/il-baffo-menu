@@ -8,7 +8,7 @@
   {
     "name": "Margherita",
     "price": 350,
-    "description": ["salcë domatesh", "mocarela", "borzilok", "parmixhan", "vaj ulliri ekstra i virgjër"],
+    "description": ["salcë domatesh", "mozzarella", "borzilok", "parmixhano", "vaj ulliri ekstra i virgjër"],
     "category": "pizze"
   },
   {
@@ -20,79 +20,79 @@
   {
     "name": "Quattro formagi",
     "price": 390,
-    "description": ["mocarela", "djathë deleje", "gorgonzola", "parmixhan"],
+    "description": ["mozzarella", "kaçkavall deleje", "gorgonzola", "parmixhano"],
     "category": "pizze"
   },
   {
     "name": "Quattro stagioni",
     "price": 380,
-    "description": ["salcë domatesh", "mocarela", "angjinare", "kërpudha", "ullinj", "domate të thata", "suxhuk pikant", "vaj ulliri ekstra i virgjër"],
+    "description": ["salcë domatesh", "mozzarella", "angjinare", "kërpudha", "ullinj", "domate të thata", "sallam pikant", "vaj ulliri ekstra i virgjër"],
     "category": "pizze"
   },
   {
     "name": "Valtellina",
-    "price": 380,
-    "description": ["salcë domatesh", "mocarela", "ruka", "proshutë", "domate të freskëta", "feta parmixhani"],
+    "price": 440,
+    "description": ["salcë domatesh", "mozzarella", "rukola", "proshutë", "domate të freskëta", "feta parmixhani"],
     "category": "pizze"
   },
   {
     "name": "Il Baffo",
     "price": 420,
-    "description": ["salcë domatesh", "mocarela", "mortadela", "stracciatella me vaj tartufi", "fistikë", "domate të thata"],
+    "description": ["krem", "mozzarella", "mortadella", "stracciatella me vaj trumze", "fëstëk", "domate të thata"],
     "category": "pizze"
   },
   {
     "name": "Primavera",
     "price": 350,
-    "description": ["salcë domatesh", "mocarela", "kungull i njomë", "domate të zeza", "speca të pjekur", "domate të thata", "vaj ulliri ekstra i virgjër"],
+    "description": ["salcë domatesh", "mozzarella", "kungull i njomë", "domate të zeza", "speca të pjekura", "domate të thata", "vaj ulliri ekstra i virgjër"],
     "category": "pizze"
   },
   {
     "name": "Diavola",
     "price": 420,
-    "description": ["salcë domatesh", "mocarela", "proshutë", "suxhuk pikant kalabrez", "vaj ulliri ekstra i virgjër"],
+    "description": ["salcë domatesh", "mozzarella", "proshutë e tymosur", "sallam pikant kalabrez", "vaj ulliri ekstra i virgjër"],
     "category": "pizze"
   },
   {
     "name": "Wurstel",
     "price": 350,
-    "description": ["salcë domatesh", "mocarela", "salsiçe", "patate të skuqura"],
+    "description": ["salcë domatesh", "mozzarella", "suxhukë wurstel", "patate të skuqura"],
     "category": "pizze"
   },
   {
     "name": "Tonno",
     "price": 360,
-    "description": ["salcë domatesh", "mocarela", "ton", "qepë", "ullinj", "borzilok", "vaj ulliri ekstra i virgjër"],
+    "description": ["salcë domatesh", "mozzarella", "ton", "qepë", "ullinj", "borzilok", "vaj ulliri ekstra i virgjër"],
     "category": "pizze"
   },
   {
     "name": "Peperoni Maiale/Manzo",
-    "price": 360,
-    "description": ["salcë domatesh", "kaçkavall", "rigon", "kullën / suxhuk", "vaj ulliri ekstra i virgjër"],
+    "price": 380,
+    "description": ["salcë domatesh", "kaçkavall", "rigon", "sallam / suxhuk", "vaj ulliri ekstra i virgjër"],
     "category": "pizze"
   },
   {
     "name": "Quattro salumi",
     "price": 390,
-    "description": ["salcë domatesh", "kaçkavall", "qafë derri", "proshutë", "kullën", "suxhuk i thatë", "vaj ulliri ekstra i virgjër"],
+    "description": ["salcë domatesh", "kaçkavall", "qafë derri", "proshutë e tymosur", "sallam pikant", "sallam i thatë", "vaj ulliri ekstra i virgjër"],
     "category": "pizze"
   },
   {
     "name": "Pastrmajlia pollo/maiale",
     "price": 360,
-    "description": ["mish pule / derri"],
+    "description": ["pulë / mish derri"],
     "category": "pizze"
   },
   {
     "name": "Cose Rose",
     "price": 410,
-    "description": ["krem", "mocarela", "spinaq", "spec djegës", "vezë"],
+    "description": ["krem", "mozzarella", "spinaq", "spec djegës", "vezë"],
     "category": "pizze"
   },
   {
     "name": "Regina",
     "price": 430,
-    "description": ["krem", "mocarela", "këpurdha porcini", "proshutë e tymosur"],
+    "description": ["krem", "mozzarella", "kërpudha porcini", "proshutë e tymosur"],
     "category": "pizze"
   }
 ]

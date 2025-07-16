@@ -104,10 +104,10 @@ export default function Menu() {
       </div>
 <Link href="tel:+38978669092" className="phoneNumber">
   {language === "mk" && <span>Јави се на: 078-669-092</span>}
-  {language === "ita" && <span>Chiamaci: 078-669-092</span>}
   {language === "eng" && <span>Call us: 078-669-092</span>}
   {language === "alb" && <span>Na telefononi: 078-669-092</span>}
   {language === "gr" && <span>Καλέστε μας: 078-669-092</span>}
+  {language === "ita" && <span>Chiamaci: 078-669-092</span>}
 </Link>
     </div>
   );

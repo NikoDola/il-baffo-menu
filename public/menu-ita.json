@@ -14,11 +14,11 @@
   {
     "name": "Capricciosa",
     "price": 330,
-    "description": ["salsa di pomodoro", "formaggio", "prosciutto", "funghi", "origano", "olio extravergine d'oliva"],
+    "description": ["salsa di pomodoro", "caciocavallo", "prosciutto cotto", "funghi", "origano", "olio extravergine d'oliva"],
     "category": "pizze"
   },
   {
-    "name": "Quattro formagi",
+    "name": "Quattro formaggi",
     "price": 390,
     "description": ["mozzarella", "formaggio di pecora", "gorgonzola", "parmigiano"],
     "category": "pizze"
@@ -31,14 +31,14 @@
   },
   {
     "name": "Valtellina",
-    "price": 380,
+    "price": 440,
     "description": ["salsa di pomodoro", "mozzarella", "rucola", "prosciutto crudo", "pomodoro fresco", "scaglie di parmigiano"],
     "category": "pizze"
   },
   {
     "name": "Il Baffo",
     "price": 420,
-    "description": ["salsa di pomodoro", "mozzarella", "mortadella", "stracciatella con olio al tartufo", "pistacchi", "pomodori secchi"],
+    "description": ["crema", "mozzarella", "mortadella", "stracciatella con olio al tartufo", "pistacchi", "pomodori secchi"],
     "category": "pizze"
   },
   {
@@ -50,7 +50,7 @@
   {
     "name": "Diavola",
     "price": 420,
-    "description": ["salsa di pomodoro", "mozzarella", "pancetta", "salame piccante calabrese", "olio extravergine d'oliva"],
+    "description": ["salsa di pomodoro", "mozzarella", "bacon", "salame piccante calabrese", "olio extravergine d'oliva"],
     "category": "pizze"
   },
   {
@@ -67,14 +67,14 @@
   },
   {
     "name": "Peperoni Maiale/Manzo",
-    "price": 360,
-    "description": ["salsa di pomodoro", "formaggio", "origano", "kulen / sujuk", "olio extravergine d'oliva"],
+    "price": 380,
+    "description": ["salsa di pomodoro", "caciocavallo", "origano", "salame piccante / salsiccia", "olio extravergine d'oliva"],
     "category": "pizze"
   },
   {
     "name": "Quattro salumi",
     "price": 390,
-    "description": ["salsa di pomodoro", "formaggio", "coppa", "pancetta", "kulen", "salame", "olio extravergine d'oliva"],
+    "description": ["salsa di pomodoro", "caciocavallo", "coppa", "bacon", "salame piccante", "salame nostrano", "olio extravergine d'oliva"],
     "category": "pizze"
   },
   {
