@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Marinara",
+    "price": 290,
+    "description": ["tomato sauce", "anchovies", "capers", "olives", "extra virgin olive oil"],
+    "category": "pizze"
+  },
+  {
+    "name": "Margherita",
+    "price": 350,
+    "description": ["tomato sauce", "mozzarella", "basil", "parmesan", "extra virgin olive oil"],
+    "category": "pizze"
+  },
+  {
+    "name": "Capricciosa",
+    "price": 330,
+    "description": ["tomato sauce", "yellow cheese", "ham", "mushrooms", "oregano", "extra virgin olive oil"],
+    "category": "pizze"
+  },
+  {
+    "name": "Quattro formagi",
+    "price": 390,
+    "description": ["mozzarella", "sheep cheese", "gorgonzola", "parmesan"],
+    "category": "pizze"
+  },
+  {
+    "name": "Quattro stagioni",
+    "price": 380,
+    "description": ["tomato sauce", "mozzarella", "artichoke", "mushrooms", "olives", "sun-dried tomatoes", "spicy salami", "extra virgin olive oil"],
+    "category": "pizze"
+  },
+  {
+    "name": "Valtellina",
+    "price": 380,
+    "description": ["tomato sauce", "mozzarella", "arugula", "prosciutto", "fresh tomato", "parmesan flakes"],
+    "category": "pizze"
+  },
+  {
+    "name": "Il Baffo",
+    "price": 420,
+    "description": ["tomato sauce", "mozzarella", "mortadella", "stracciatella with truffle oil", "pistachios", "sun-dried tomatoes"],
+    "category": "pizze"
+  },
+  {
+    "name": "Primavera",
+    "price": 350,
+    "description": ["tomato sauce", "mozzarella", "zucchini", "black tomato", "roasted peppers", "sun-dried tomatoes", "extra virgin olive oil"],
+    "category": "pizze"
+  },
+  {
+    "name": "Diavola",
+    "price": 420,
+    "description": ["tomato sauce", "mozzarella", "bacon", "spicy Calabrian salami", "extra virgin olive oil"],
+    "category": "pizze"
+  },
+  {
+    "name": "Wurstel",
+    "price": 350,
+    "description": ["tomato sauce", "mozzarella", "sausages", "fries"],
+    "category": "pizze"
+  },
+  {
+    "name": "Tonno",
+    "price": 360,
+    "description": ["tomato sauce", "mozzarella", "tuna", "onion", "olives", "basil", "extra virgin olive oil"],
+    "category": "pizze"
+  },
+  {
+    "name": "Peperoni Maiale/Manzo",
+    "price": 360,
+    "description": ["tomato sauce", "yellow cheese", "oregano", "kulen / sujuk", "extra virgin olive oil"],
+    "category": "pizze"
+  },
+  {
+    "name": "Quattro salumi",
+    "price": 390,
+    "description": ["tomato sauce", "yellow cheese", "pork neck", "bacon", "kulen", "dry sausage", "extra virgin olive oil"],
+    "category": "pizze"
+  },
+  {
+    "name": "Pastrmajlia pollo/maiale",
+    "price": 360,
+    "description": ["chicken / pork"],
+    "category": "pizze"
+  },
+  {
+    "name": "Cose Rose",
+    "price": 410,
+    "description": ["cream", "mozzarella", "spinach", "chili", "egg"],
+    "category": "pizze"
+  },
+  {
+    "name": "Regina",
+    "price": 430,
+    "description": ["cream", "mozzarella", "porcini", "smoked prosciutto"],
+    "category": "pizze"
+  }
+]

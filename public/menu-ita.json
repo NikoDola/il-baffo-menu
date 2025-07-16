@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Marinara",
+    "price": 290,
+    "description": ["salsa di pomodoro", "acciughe", "capperi", "olive", "olio extravergine d'oliva"],
+    "category": "pizze"
+  },
+  {
+    "name": "Margherita",
+    "price": 350,
+    "description": ["salsa di pomodoro", "mozzarella", "basilico", "parmigiano", "olio extravergine d'oliva"],
+    "category": "pizze"
+  },
+  {
+    "name": "Capricciosa",
+    "price": 330,
+    "description": ["salsa di pomodoro", "formaggio", "prosciutto", "funghi", "origano", "olio extravergine d'oliva"],
+    "category": "pizze"
+  },
+  {
+    "name": "Quattro formagi",
+    "price": 390,
+    "description": ["mozzarella", "formaggio di pecora", "gorgonzola", "parmigiano"],
+    "category": "pizze"
+  },
+  {
+    "name": "Quattro stagioni",
+    "price": 380,
+    "description": ["salsa di pomodoro", "mozzarella", "carciofi", "funghi", "olive", "pomodori secchi", "salame piccante", "olio extravergine d'oliva"],
+    "category": "pizze"
+  },
+  {
+    "name": "Valtellina",
+    "price": 380,
+    "description": ["salsa di pomodoro", "mozzarella", "rucola", "prosciutto crudo", "pomodoro fresco", "scaglie di parmigiano"],
+    "category": "pizze"
+  },
+  {
+    "name": "Il Baffo",
+    "price": 420,
+    "description": ["salsa di pomodoro", "mozzarella", "mortadella", "stracciatella con olio al tartufo", "pistacchi", "pomodori secchi"],
+    "category": "pizze"
+  },
+  {
+    "name": "Primavera",
+    "price": 350,
+    "description": ["salsa di pomodoro", "mozzarella", "zucchine", "pomodoro nero", "peperoni arrostiti", "pomodori secchi", "olio extravergine d'oliva"],
+    "category": "pizze"
+  },
+  {
+    "name": "Diavola",
+    "price": 420,
+    "description": ["salsa di pomodoro", "mozzarella", "pancetta", "salame piccante calabrese", "olio extravergine d'oliva"],
+    "category": "pizze"
+  },
+  {
+    "name": "Wurstel",
+    "price": 350,
+    "description": ["salsa di pomodoro", "mozzarella", "wurstel", "patatine fritte"],
+    "category": "pizze"
+  },
+  {
+    "name": "Tonno",
+    "price": 360,
+    "description": ["salsa di pomodoro", "mozzarella", "tonno", "cipolla", "olive", "basilico", "olio extravergine d'oliva"],
+    "category": "pizze"
+  },
+  {
+    "name": "Peperoni Maiale/Manzo",
+    "price": 360,
+    "description": ["salsa di pomodoro", "formaggio", "origano", "kulen / sujuk", "olio extravergine d'oliva"],
+    "category": "pizze"
+  },
+  {
+    "name": "Quattro salumi",
+    "price": 390,
+    "description": ["salsa di pomodoro", "formaggio", "coppa", "pancetta", "kulen", "salame", "olio extravergine d'oliva"],
+    "category": "pizze"
+  },
+  {
+    "name": "Pastrmajlia pollo/maiale",
+    "price": 360,
+    "description": ["pollo / maiale"],
+    "category": "pizze"
+  },
+  {
+    "name": "Cose Rose",
+    "price": 410,
+    "description": ["crema", "mozzarella", "spinaci", "peperoncino", "uovo"],
+    "category": "pizze"
+  },
+  {
+    "name": "Regina",
+    "price": 430,
+    "description": ["crema", "mozzarella", "porcini", "prosciutto affumicato"],
+    "category": "pizze"
+  }
+]
