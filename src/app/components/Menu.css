@@ -99,6 +99,7 @@
 .descriptionItem {
   font-size: 0.9rem;
   color: #ccc;
+  width: 90%;
 }
 
 .descriptionItem::selection {
