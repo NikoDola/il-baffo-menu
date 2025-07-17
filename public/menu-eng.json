@@ -2,7 +2,7 @@
   {
     "name": "Marinara",
     "price": 290,
-    "description": ["tomato sauce", "anchovies", "capers", "olives", "extra virgin olive oil"],
+    "description": ["tomato sauce", "anchovies", "capers", "olives", "oregano", "extra virgin olive oil"],
     "category": "pizze"
   },
   {
@@ -14,13 +14,13 @@
   {
     "name": "Capricciosa",
     "price": 330,
-    "description": ["tomato sauce", "kashkaval cheese", "ham", "mushrooms", "oregano", "extra virgin olive oil"],
+    "description": ["tomato sauce", "yellow cheese", "ham", "mushrooms", "oregano", "extra virgin olive oil"],
     "category": "pizze"
   },
   {
     "name": "Quattro formagi",
     "price": 390,
-    "description": ["mozzarella", "sheep cheese", "gorgonzola", "parmesan"],
+    "description": ["mozzarella", "sheep's cheese", "gorgonzola", "parmesan"],
     "category": "pizze"
   },
   {
@@ -32,7 +32,7 @@
   {
     "name": "Valtellina",
     "price": 440,
-    "description": ["tomato sauce", "mozzarella", "arugula", "prosciutto", "fresh tomato", "parmesan shavings"],
+    "description": ["tomato sauce", "mozzarella", "arugula", "prosciutto", "fresh tomato", "parmesan flakes"],
     "category": "pizze"
   },
   {
@@ -50,13 +50,13 @@
   {
     "name": "Diavola",
     "price": 420,
-    "description": ["tomato sauce", "mozzarella", "bacon", "spicy Calabrian salami", "extra virgin olive oil"],
+    "description": ["tomato sauce", "mozzarella", "bacon", "Calabrian spicy salami", "extra virgin olive oil"],
     "category": "pizze"
   },
   {
     "name": "Wurstel",
     "price": 350,
-    "description": ["tomato sauce", "mozzarella", "wurstel sausage", "french fries"],
+    "description": ["tomato sauce", "mozzarella", "frankfurters", "french fries"],
     "category": "pizze"
   },
   {
@@ -67,14 +67,14 @@
   },
   {
     "name": "Peperoni Maiale/Manzo",
-    "price": 380,
-    "description": ["tomato sauce", "kashkaval cheese", "oregano", "kulen / sujuk", "extra virgin olive oil"],
+    "price": [360, 380],
+    "description": ["tomato sauce", "yellow cheese", "oregano", "kulen / sujuk", "extra virgin olive oil"],
     "category": "pizze"
   },
   {
     "name": "Quattro salumi",
     "price": 390,
-    "description": ["tomato sauce", "kashkaval cheese", "neck meat", "bacon", "kulen", "dry sausage", "extra virgin olive oil"],
+    "description": ["tomato sauce", "yellow cheese", "pork neck", "bacon", "kulen", "dry sausage", "extra virgin olive oil"],
     "category": "pizze"
   },
   {
@@ -94,5 +94,137 @@
     "price": 430,
     "description": ["cream", "mozzarella", "porcini mushrooms", "smoked prosciutto"],
     "category": "pizze"
+  },
+  {
+    "name": "Lampone",
+    "price": 190,
+    "description": ["raspberries", "coulis", "prosecco"],
+    "category": "Aperitivi"
+  },
+  {
+    "name": "Bellini",
+    "price": 190,
+    "description": ["peach", "coulis", "prosecco"],
+    "category": "Aperitivi"
+  },
+  {
+    "name": "Rossini",
+    "price": 190,
+    "description": ["strawberry", "coulis", "prosecco"],
+    "category": "Aperitivi"
+  },
+  {
+    "name": "Aperol Spritz",
+    "price": 240,
+    "description": ["aperol", "prosecco", "soda", "orange"],
+    "category": "Aperitivi"
+  },
+  {
+    "name": "Negroni",
+    "price": 240,
+    "description": ["gin", "martini rosso", "campari", "orange"],
+    "category": "Aperitivi"
+  },
+  {
+    "name": "Parmigiana",
+    "price": 190,
+    "description": ["black tomato", "parmesan", "tomato sauce", "extra virgin olive oil"],
+    "category": "Antipasti"
+  },
+  {
+    "name": "Antipasto misto di terra (for 3-4 people)",
+    "price": 790,
+    "description": ["Platter with selected Italian cheeses (gorgonzola, pecorino romano, 24-month aged parmesan), cured Italian meats (ventricina, schiacciata, Parma ham and beef prosciutto), vegetables and bruschetta"],
+    "category": "Antipasti"
+  },
+  {
+    "name": "Tris di Bruchette",
+    "price": 190,
+    "description": ["mix of bruschetta"],
+    "category": "Antipasti"
+  },
+  {
+    "name": "Polpette al sugo",
+    "price": 210,
+    "description": ["meatballs in tomato sauce and parmesan"],
+    "category": "Antipasti"
+  },
+  {
+    "name": "Carpese",
+    "price": 230,
+    "description": ["fresh mozzarella salad, tomato and extra virgin olive oil"],
+    "category": "Antipasti"
+  },
+  {
+    "name": "Bresaola",
+    "price": 460,
+    "description": ["beef prosciutto ravioli filled with arugula and aged ricotta, served with artichoke, arugula and parmesan flakes"],
+    "category": "Antipasti"
+  },
+  {
+    "name": "Broccoli a modo Mio",
+    "price": 160,
+    "description": ["broccoli with garlic", "hot peppers", "extra virgin olive oil"],
+    "category": "Contorni"
+  },
+  {
+    "name": "Patatine fritte",
+    "price": 140,
+    "description": ["french fries"],
+    "category": "Contorni"
+  },
+  {
+    "name": "Rucola",
+    "price": 190,
+    "description": ["arugula", "fresh tomato", "parmesan flakes"],
+    "category": "Contorni"
+  },
+  {
+    "name": "Insalata Mista",
+    "price": 150,
+    "description": ["mixed salad"],
+    "category": "Contorni"
+  },
+  {
+    "name": "Caponata",
+    "price": 160,
+    "description": ["fried vegetable mix with tomato sauce"],
+    "category": "Contorni"
+  },
+  {
+    "name": "Affogato al Caffe/+ Liquorevg",
+    "price": [140, 240],
+    "description": ["vanilla ice cream with espresso/+ liqueur"],
+    "category": "Dolci"
+  },
+  {
+    "name": "Pizza alla Nutella",
+    "price": 260,
+    "description": ["Nutella pizza"],
+    "category": "Dolci"
+  },
+  {
+    "name": "Tiramisu",
+    "price": 200,
+    "description": ["tiramisu"],
+    "category": "Dolci"
+  },
+  {
+    "name": "Gelati Italiani(vaniglia fragola cioccolato)",
+    "price": 190,
+    "description": ["Italian ice cream with vanilla, chocolate, strawberry"],
+    "category": "Dolci"
+  },
+  {
+    "name": "Sorbeto al limone",
+    "price": 190,
+    "description": ["lemon sorbet"],
+    "category": "Dolci"
+  },
+  {
+    "name": "Lemon sgroppino",
+    "price": 190,
+    "description": ["lemon sorbet and prosecco cocktail"],
+    "category": "Dolci"
   }
 ]

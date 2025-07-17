@@ -13,14 +13,6 @@
   margin-bottom: 2rem;
 }
 
-.tagline {
-  margin: 0 auto;
-  text-align: center;
-  margin-top: 1rem;
-  font-style: italic;
-  color: #ccc;
-}
-
 .languagesWrapper {
   display: flex;
   gap: 1.5rem;
@@ -37,7 +29,6 @@
   padding: 8px;
   cursor: pointer;
   transition: 0.3s;
-
 }
 
 .language:hover {
@@ -47,7 +38,6 @@
 .languageSelected {
   background-color: white;
   border-radius: 50%;
-  
 }
 
 .menuItemsWrapper {
@@ -59,19 +49,43 @@
   width: 100%;
 }
 
-.pizzaWrapper {
+.categorySection {
+  margin-bottom: 3rem;
+  border-bottom: 2px solid #444;
+  padding-bottom: 1.5rem;
+}
+
+.categoryTitle {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.categoryTitle::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  height: 3px;
+  background: #fff;
+}
+
+.menuItemWrapper {
   border-bottom: 1px solid #333;
-  padding-bottom: 1rem;
+  padding: 1rem 0;
   position: relative;
 }
 
-.pizzaName {
-  font-size: 1.5rem;
+.itemName {
+  font-size: 1.3rem;
   margin-bottom: 0.5rem;
   color: #fff;
-}
-.pizzaName::selection {
-  background-color: red;
+  padding-right: 100px;
 }
 
 .descriptionWrapper {
@@ -86,9 +100,11 @@
   font-size: 0.9rem;
   color: #ccc;
 }
-.descriptionItem::selection{
+
+.descriptionItem::selection {
   background-color: green;
 }
+
 .priceBox {
   position: absolute;
   right: 0;
@@ -131,17 +147,12 @@
   gap: 0.5rem;
   border: 1px solid #555;
   cursor: pointer;
-}
-
-.phoneNumber a {
   color: white;
   text-decoration: none;
   font-weight: bold;
 }
 
-
-
-.phoneNumber:hover{
+.phoneNumber:hover {
   background-color: rgb(109, 109, 109);
 }
 
@@ -155,8 +166,12 @@
     height: auto;
   }
   
-  .pizzaName {
-    font-size: 1.3rem;
+  .categoryTitle {
+    font-size: 1.5rem;
+  }
+  
+  .itemName {
+    font-size: 1.1rem;
     padding-right: 80px;
   }
   
@@ -168,6 +183,4 @@
     flex-direction: column;
     gap: 0;
   }
-  
-
 }

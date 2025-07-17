@@ -2,7 +2,7 @@
   {
     "name": "Marinara",
     "price": 290,
-    "description": ["доматен сос", "инчуни", "капери", "маслинки", "екстра девствено маслиново масло"],
+    "description": ["доматен сос", "инчуни", "капери", "маслинки","оригано", "екстра девствено маслиново масло"],
     "category": "pizze"
   },
   {
@@ -67,7 +67,7 @@
   },
   {
     "name": "Peperoni Maiale/Manzo",
-    "price": 380,
+    "price": [360, 380],
     "description": ["доматен сос", "кашкавал", "оригано", "кулен / суджук", "екстра девствено маслиново масло"],
     "category": "pizze"
   },
@@ -80,7 +80,7 @@
   {
     "name": "Pastrmajlia pollo/maiale",
     "price": 360,
-    "description": ["пилешко / свинско"],
+    "description": ["пилешка / свинска"],
     "category": "pizze"
   },
   {
@@ -94,5 +94,137 @@
     "price": 430,
     "description": ["крем", "моцарела", "вргањ", "чадена пршута"],
     "category": "pizze"
+  },
+  {
+    "name": "Lampone",
+    "price": 190,
+    "description": ["малини", "кулис", "просеко"],
+    "category": "Aperitivi"
+  },
+  {
+    "name": "Bellini",
+    "price": 190,
+    "description": ["праска", "кулис", "просеко"],
+    "category": "Aperitivi"
+  },
+  {
+    "name": "Rossini",
+    "price": 190,
+    "description": ["јагода", "кулис", "просеко"],
+    "category": "Aperitivi"
+  },
+  {
+    "name": "Aperol Spritz",
+    "price": 240,
+    "description": ["аперол", "просеко", "сода","портокал"],
+    "category": "Aperitivi"
+  },
+  {
+    "name": "Negroni",
+    "price": 240,
+    "description": ["џин", "мартини росо", "кампари", "портокал"],
+    "category": "Aperitivi"
+  },
+  {
+    "name": "Parmigiana",
+    "price": 190,
+    "description": ["црн домат", "пармезан", "доматен сос", "екстра девствено маслиново масло"],
+    "category": "Antipasti"
+  },
+  {
+    "name": "Antipasto misto di terra (за 3-4 лица)",
+    "price": 790,
+    "description": ["Даска со селектирани италијански сирења (горгонзола, пекорино романо, 24 месеци здреан пармезан), сувомеснати италијански производи (ветричина, скиачата, пармахан и говетска пршута), зеленчук и брускети"],
+    "category": "Antipasti"
+  },
+  {
+    "name": "Tris di Bruchette",
+    "price": 190,
+    "description": ["микс од брускети"],
+    "category": "Antipasti"
+  },
+  {
+    "name": "Polpette al sugo",
+    "price": 210,
+    "description": ["ќофтиња во доматен сос и пармезан"],
+    "category": "Antipasti"
+  },
+  {
+    "name": "Carpese",
+    "price": 230,
+    "description": ["салата од свежа моцарела, домат и екстра девствено маслиново масло"],
+    "category": "Antipasti"
+  },
+  {
+    "name": "Bresaola",
+    "price": 460,
+    "description": ["равиоли од говедска пршута полнати со рукола и здреана урда, сервирана со артишок, рукола и фелки од пармезан"],
+    "category": "Antipasti"
+  },
+  {
+    "name": "Broccoli a modo Mio",
+    "price": 160,
+    "description": ["брокула со лук","љути пиперчиња","екстра девствено маслиново масло" ],
+    "category": "Contorni"
+  },
+  {
+    "name": "Patatine fritte",
+    "price": 140,
+    "description": ["помфрит" ],
+    "category": "Contorni"
+  },
+  {
+    "name": "Rucola",
+    "price": 190,
+    "description": ["рукола", "свеж домат", "фелки од пармезан"],
+    "category": "Contorni"
+  },
+  {
+    "name": "Insalata Mista",
+    "price": 150,
+    "description": ["микс салата"],
+    "category": "Contorni"
+  },
+  {
+    "name": "Caponata",
+    "price": 160,
+    "description": ["пржен микс од зеленчук со доматен сос"],
+    "category": "Contorni"
+  },
+  {
+    "name": "Affogato al Caffe/+ Liquorevg",
+    "price": [140, 240],
+    "description": ["сладолед од ванила со еспресо/+ ликер"],
+    "category": "Dolci"
+  },
+  {
+    "name": "Pizza alla Nutella",
+    "price": 260,
+    "description": ["пица од нутела"],
+    "category": "Dolci"
+  },
+  {
+    "name": "Tiramisu",
+    "price": 200,
+    "description": ["тирамису"],
+    "category": "Dolci"
+  },
+  {
+    "name": "Gelati Italiani(vaniglia fragola cioccolato)",
+    "price": 190,
+    "description": ["италијански сладолед од ванила, чоколадо, јагода"],
+    "category": "Dolci"
+  },
+  {
+    "name": "Sorbeto al limone",
+    "price": 190,
+    "description": ["шербет лимон"],
+    "category": "Dolci"
+  },
+  {
+    "name": "Lemon sgroppino",
+    "price": 190,
+    "description": ["коктел од шербет лимон и просеко"],
+    "category": "Dolci"
   }
 ]

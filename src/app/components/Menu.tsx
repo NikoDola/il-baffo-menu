@@ -6,7 +6,8 @@ import Link from "next/link";
 interface MenuType {
   name: string;
   description: string[];
-  price: number;
+  price: number | number[];
+  category: string;
 }
 
 import { useEffect, useState } from "react";
@@ -24,6 +25,15 @@ export default function Menu() {
     getData();
   }, [language]);
 
+  // Group menu items by category
+  const menuByCategory = menu.reduce((acc, item) => {
+    if (!acc[item.category]) {
+      acc[item.category] = [];
+    }
+    acc[item.category].push(item);
+    return acc;
+  }, {} as Record<string, MenuType[]>);
+
   return (
     <div className="menuWrapper">
       <div className="logoWrapper">
@@ -33,7 +43,6 @@ export default function Menu() {
           height={100}
           alt="il-baffo logo"
         />
-        <p className="tagline">Pizza Napolitana</p>
       </div>
 
       <div className="languagesWrapper">
@@ -45,22 +54,22 @@ export default function Menu() {
           height={30}
           alt="macedonian language"
         />
-            <Image
-              className={language === "eng" ? "languageSelected" : "language"}
-              onClick={() => setLanguage("eng")}
-              src={"/images/flags/eng.svg"}
-              width={30}
-              height={30}
-              alt="english language"
-            />
-          <Image
-            className={language === "alb" ? "languageSelected" : "language"}
-            onClick={() => setLanguage("alb")}
-            src={"/images/flags/alb.svg"}
-            width={30}
-            height={30}
-            alt="albanian language"
-          />
+        <Image
+          className={language === "eng" ? "languageSelected" : "language"}
+          onClick={() => setLanguage("eng")}
+          src={"/images/flags/eng.svg"}
+          width={30}
+          height={30}
+          alt="english language"
+        />
+        <Image
+          className={language === "alb" ? "languageSelected" : "language"}
+          onClick={() => setLanguage("alb")}
+          src={"/images/flags/alb.svg"}
+          width={30}
+          height={30}
+          alt="albanian language"
+        />
         <Image
           className={language === "gr" ? "languageSelected" : "language"}
           onClick={() => setLanguage("gr")}
@@ -80,35 +89,45 @@ export default function Menu() {
       </div>
 
       <div className="menuItemsWrapper">
-        {menu.length > 0 ? (
-          menu.map((item, index) => (
-            <div className="pizzaWrapper" key={index}>
-              <h2 className="pizzaName">{item.name}</h2>
-              <div className="descriptionWrapper">
-                {item.description.map((desc, i) => (
-                  <span className="descriptionItem" key={i}>
-                    {desc}
-                    {i < item.description.length - 1 ? ", " : ""}
-                  </span>
-                ))}
-              </div>
-              <div className="priceBox">
-                <span className="priceCurrency">ден</span>
-                <span className="priceValue">{item.price}</span>
-              </div>
+        {Object.keys(menuByCategory).length > 0 ? (
+          Object.entries(menuByCategory).map(([category, items]) => (
+            <div className="categorySection" key={category}>
+              <h2 className="categoryTitle">{category}</h2>
+              {items.map((item, index) => (
+                <div className="menuItemWrapper" key={index}>
+                  <h3 className="itemName">{item.name}</h3>
+                  <div className="descriptionWrapper">
+                    {item.description.map((desc, i) => (
+                      <span className="descriptionItem" key={i}>
+                        {desc}
+                        {i < item.description.length - 1 ? ", " : ""}
+                      </span>
+                    ))}
+                  </div>
+                  <div className="priceBox">
+                    <span className="priceCurrency">ден</span>
+                    <span className="priceValue">
+                      {Array.isArray(item.price) 
+                        ? item.price.join(" / ") 
+                        : item.price}
+                    </span>
+                  </div>
+                </div>
+              ))}
             </div>
           ))
         ) : (
           <p className="loadingText">Loading...</p>
         )}
       </div>
-<Link href="tel:+38978669092" className="phoneNumber">
-  {language === "mk" && <span>📞 Јави се на: 078-669-092</span>}
-  {language === "eng" && <span>📞 Call us: 078-669-092</span>}
-  {language === "alb" && <span>📞 Na telefononi: 078-669-092</span>}
-  {language === "gr" && <span>📞 Καλέστε μας: 078-669-092</span>}
-  {language === "ita" && <span>📞 Chiamaci: 078-669-092</span>}
-</Link>
+
+      <Link href="tel:+38978669092" className="phoneNumber">
+        {language === "mk" && <span>📞 Јави се на: 078-669-092</span>}
+        {language === "eng" && <span>📞 Call us: 078-669-092</span>}
+        {language === "alb" && <span>📞 Na telefononi: 078-669-092</span>}
+        {language === "gr" && <span>📞 Καλέστε μας: 078-669-092</span>}
+        {language === "ita" && <span>📞 Chiamaci: 078-669-092</span>}
+      </Link>
     </div>
   );
 }
