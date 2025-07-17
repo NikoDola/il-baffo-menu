@@ -64,6 +64,10 @@
   position: relative;
   padding-bottom: 0.5rem;
 }
+.categoryTitle::selection{
+  background-color: green;
+  color: white;
+}
 
 .categoryTitle::after {
   content: "";
@@ -87,6 +91,10 @@
   color: #fff;
   padding-right: 100px;
 }
+.itemName::selection{
+  background-color: white;
+  color: black;
+}
 
 .descriptionWrapper {
   display: flex;
@@ -103,7 +111,8 @@
 }
 
 .descriptionItem::selection {
-  background-color: green;
+  background-color: red;
+  color: white;
 }
 
 .priceBox {
