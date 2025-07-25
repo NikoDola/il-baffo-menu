@@ -2,229 +2,493 @@
   {
     "name": "Marinara",
     "price": 290,
-    "description": ["tomato sauce", "anchovies", "capers", "olives", "oregano", "extra virgin olive oil"],
-    "category": "pizze"
+    "description": [
+      "tomato sauce",
+      "anchovies",
+      "capers",
+      "olives",
+      "oregano",
+      "extra virgin olive oil"
+    ],
+    "category": "pizze",
+  "meal_type": "main_course", 
+  "suggestions": {
+    "pairs_with_categories": ["Aperitivi", "Wine", "Beer", "Soft Drinks"], 
+    "before_categories": ["Antipasti", "Bruschetta"], 
+    "after_categories": ["Dolci", "Digestivi", "Coffee"], 
+    "upsell_notes": ["A classic, perfectly paired with a crisp Aperol Spritz."] 
+  }
   },
   {
     "name": "Margherita",
     "price": 350,
-    "description": ["tomato sauce", "mozzarella", "basil", "parmesan", "extra virgin olive oil"],
-    "category": "pizze"
+    "description": [
+      "tomato sauce",
+      "mozzarella",
+      "basil",
+      "parmesan",
+      "extra virgin olive oil"
+    ],
+    "category": "pizze",
+    "meal_type": "main_course",
+    "suggestions": {
+      "pairs_with_categories": ["Aperitivi", "Wine", "Beer", "Soft Drinks"],
+      "before_categories": ["Antipasti", "Bruschetta"],
+      "after_categories": ["Dolci", "Digestivi", "Coffee"],
+      "upsell_notes": ["The quintessential Italian pizza, enjoy with a refreshing drink!"]
+    }
   },
   {
     "name": "Capricciosa",
     "price": 330,
-    "description": ["tomato sauce", "yellow cheese", "ham", "mushrooms", "oregano", "extra virgin olive oil"],
-    "category": "pizze"
+    "description": [
+      "tomato sauce",
+      "yellow cheese",
+      "ham",
+      "mushrooms",
+      "oregano",
+      "extra virgin olive oil"
+    ],
+    "category": "pizze",
+    "meal_type": "main_course",
+    "suggestions": {
+      "pairs_with_categories": ["Aperitivi", "Wine", "Beer", "Soft Drinks"],
+      "before_categories": ["Antipasti", "Bruschetta"],
+      "after_categories": ["Dolci", "Digestivi", "Coffee"]
+    }
   },
   {
     "name": "Quattro formagi",
     "price": 390,
-    "description": ["mozzarella", "sheep's cheese", "gorgonzola", "parmesan"],
-    "category": "pizze"
+    "description": [
+      "mozzarella",
+      "sheep's cheese",
+      "gorgonzola",
+      "parmesan"
+    ],
+    "category": "pizze",
+    "meal_type": "main_course",
+    "suggestions": {
+      "pairs_with_categories": ["Wine", "Beer", "Soft Drinks"],
+      "before_categories": ["Antipasti"],
+      "after_categories": ["Dolci", "Digestivi", "Coffee"]
+    }
   },
   {
     "name": "Quattro stagioni",
     "price": 380,
-    "description": ["tomato sauce", "mozzarella", "artichoke", "mushrooms", "olives", "sun-dried tomatoes", "spicy salami", "extra virgin olive oil"],
-    "category": "pizze"
+    "description": [
+      "tomato sauce",
+      "mozzarella",
+      "artichoke",
+      "mushrooms",
+      "olives",
+      "sun-dried tomatoes",
+      "spicy salami",
+      "extra virgin olive oil"
+    ],
+    "category": "pizze",
+    "meal_type": "main_course",
+    "suggestions": {
+      "pairs_with_categories": ["Aperitivi", "Wine", "Beer", "Soft Drinks"],
+      "before_categories": ["Antipasti", "Bruschetta"],
+      "after_categories": ["Dolci", "Digestivi", "Coffee"]
+    }
   },
   {
     "name": "Valtellina",
     "price": 440,
-    "description": ["tomato sauce", "mozzarella", "arugula", "prosciutto", "fresh tomato", "parmesan flakes"],
-    "category": "pizze"
+    "description": [
+      "tomato sauce",
+      "mozzarella",
+      "arugula",
+      "prosciutto",
+      "fresh tomato",
+      "parmesan flakes"
+    ],
+    "category": "pizze",
+    "meal_type": "main_course",
+    "suggestions": {
+      "pairs_with_categories": ["Wine", "Beer", "Soft Drinks"],
+      "before_categories": ["Antipasti"],
+      "after_categories": ["Dolci", "Digestivi", "Coffee"]
+    }
   },
   {
     "name": "Il Baffo",
     "price": 420,
-    "description": ["cream", "mozzarella", "mortadella", "stracciatella with truffle oil", "pistachios", "sun-dried tomatoes"],
-    "category": "pizze"
+    "description": [
+      "cream",
+      "mozzarella",
+      "mortadella",
+      "stracciatella with truffle oil",
+      "pistachios",
+      "sun-dried tomatoes"
+    ],
+    "category": "pizze",
+    "meal_type": "main_course",
+    "suggestions": {
+      "pairs_with_categories": ["Wine", "Beer", "Soft Drinks"],
+      "before_categories": ["Antipasti"],
+      "after_categories": ["Dolci", "Digestivi", "Coffee"]
+    }
   },
   {
     "name": "Primavera",
     "price": 350,
-    "description": ["tomato sauce", "mozzarella", "zucchini", "black tomato", "roasted peppers", "sun-dried tomatoes", "extra virgin olive oil"],
-    "category": "pizze"
+    "description": [
+      "tomato sauce",
+      "mozzarella",
+      "zucchini",
+      "black tomato",
+      "roasted peppers",
+      "sun-dried tomatoes",
+      "extra virgin olive oil"
+    ],
+    "category": "pizze",
+    "meal_type": "main_course",
+    "suggestions": {
+      "pairs_with_categories": ["Wine", "Beer", "Soft Drinks"],
+      "before_categories": ["Antipasti"],
+      "after_categories": ["Dolci", "Digestivi", "Coffee"]
+    }
   },
   {
     "name": "Diavola",
     "price": 420,
-    "description": ["tomato sauce", "mozzarella", "bacon", "Calabrian spicy salami", "extra virgin olive oil"],
-    "category": "pizze"
+    "description": [
+      "tomato sauce",
+      "mozzarella",
+      "bacon",
+      "Calabrian spicy salami",
+      "extra virgin olive oil"
+    ],
+    "category": "pizze",
+    "meal_type": "main_course",
+    "suggestions": {
+      "pairs_with_categories": ["Beer", "Soft Drinks"],
+      "before_categories": ["Antipasti"],
+      "after_categories": ["Dolci", "Digestivi", "Coffee"]
+    }
   },
   {
     "name": "Wurstel",
     "price": 350,
-    "description": ["tomato sauce", "mozzarella", "frankfurters", "french fries"],
-    "category": "pizze"
+    "description": [
+      "tomato sauce",
+      "mozzarella",
+      "frankfurters",
+      "french fries"
+    ],
+    "category": "pizze",
+    "meal_type": "main_course",
+    "suggestions": {
+      "pairs_with_categories": ["Beer", "Soft Drinks"],
+      "before_categories": ["Antipasti"],
+      "after_categories": ["Dolci"]
+    }
   },
   {
     "name": "Tonno",
     "price": 360,
     "description": ["tomato sauce", "mozzarella", "tuna", "onion", "olives", "basil", "extra virgin olive oil"],
-    "category": "pizze"
+    "category": "pizze",
+    "meal_type": "main_course",
+    "suggestions": {
+      "pairs_with_categories": ["Wine", "Soft Drinks"],
+      "before_categories": ["Antipasti", "Bruschetta", "Salads"],
+      "after_categories": ["Dolci", "Digestivi", "Coffee"]
+    }
   },
   {
     "name": "Peperoni Maiale/Manzo",
     "price": [360, 380],
     "description": ["tomato sauce", "yellow cheese", "oregano", "kulen / sujuk", "extra virgin olive oil"],
-    "category": "pizze"
+    "category": "pizze",
+    "meal_type": "main_course",
+    "suggestions": {
+      "pairs_with_categories": ["Beer", "Soft Drinks"],
+      "before_categories": ["Antipasti"],
+      "after_categories": ["Dolci", "Digestivi", "Coffee"]
+    }
   },
   {
     "name": "Quattro salumi",
     "price": 390,
     "description": ["tomato sauce", "yellow cheese", "pork neck", "bacon", "kulen", "dry sausage", "extra virgin olive oil"],
-    "category": "pizze"
+    "category": "pizze",
+    "meal_type": "main_course",
+    "suggestions": {
+      "pairs_with_categories": ["Beer", "Wine", "Soft Drinks"],
+      "before_categories": ["Antipasti"],
+      "after_categories": ["Dolci", "Digestivi", "Coffee"]
+    }
   },
   {
     "name": "Pastrmajlia pollo/maiale",
     "price": 360,
     "description": ["chicken / pork"],
-    "category": "pizze"
+    "category": "pizze",
+    "meal_type": "main_course",
+    "suggestions": {
+      "pairs_with_categories": ["Beer", "Soft Drinks"],
+      "before_categories": ["Antipasti"],
+      "after_categories": ["Dolci", "Digestivi", "Coffee"]
+    }
   },
   {
     "name": "Cose Rose",
     "price": 410,
     "description": ["cream", "mozzarella", "spinach", "chili", "egg"],
-    "category": "pizze"
+    "category": "pizze",
+    "meal_type": "main_course",
+    "suggestions": {
+      "pairs_with_categories": ["Wine", "Soft Drinks"],
+      "before_categories": ["Antipasti"],
+      "after_categories": ["Dolci", "Digestivi", "Coffee"]
+    }
   },
   {
     "name": "Regina",
     "price": 430,
     "description": ["cream", "mozzarella", "porcini mushrooms", "smoked prosciutto"],
-    "category": "pizze"
-  },
-  {
+    "category": "pizze",
+    "meal_type": "main_course",
+    "suggestions": {
+      "pairs_with_categories": ["Wine", "Soft Drinks"],
+      "before_categories": ["Antipasti"],
+      "after_categories": ["Dolci", "Digestivi", "Coffee"]
+    }
+  }, {
     "name": "Lampone",
     "price": 190,
     "description": ["raspberries", "coulis", "prosecco"],
-    "category": "Aperitivi"
+    "category": "Aperitivi",
+    "meal_type": "aperitif_drink",
+    "suggestions": {
+      "pairs_with_categories": ["Antipasti", "Bruschetta"]
+    }
   },
   {
     "name": "Bellini",
     "price": 190,
     "description": ["peach", "coulis", "prosecco"],
-    "category": "Aperitivi"
+    "category": "Aperitivi",
+    "meal_type": "aperitif_drink",
+    "suggestions": {
+      "pairs_with_categories": ["Antipasti", "Bruschetta"]
+    }
   },
   {
     "name": "Rossini",
     "price": 190,
     "description": ["strawberry", "coulis", "prosecco"],
-    "category": "Aperitivi"
+    "category": "Aperitivi",
+    "meal_type": "aperitif_drink",
+    "suggestions": {
+      "pairs_with_categories": ["Antipasti", "Bruschetta"]
+    }
   },
   {
     "name": "Aperol Spritz",
     "price": 240,
     "description": ["aperol", "prosecco", "soda", "orange"],
-    "category": "Aperitivi"
+    "category": "Aperitivi",
+    "meal_type": "aperitif_drink",
+    "suggestions": {
+      "pairs_with_categories": ["Antipasti", "Bruschetta", "Light Salads"],
+      "upsell_notes": ["The perfect start to your Italian meal!"]
+    }
   },
   {
     "name": "Negroni",
     "price": 240,
     "description": ["gin", "martini rosso", "campari", "orange"],
-    "category": "Aperitivi"
+    "category": "Aperitivi",
+    "meal_type": "aperitif_drink",
+    "suggestions": {
+      "pairs_with_categories": ["Antipasti", "Bruschetta"]
+    }
   },
   {
     "name": "Parmigiana",
     "price": 190,
     "description": ["black tomato", "parmesan", "tomato sauce", "extra virgin olive oil"],
-    "category": "Antipasti"
+    "category": "Antipasti",
+    "meal_type": "starter_food",
+    "suggestions": {
+      "pairs_with_categories": ["Aperitivi", "Wine"],
+      "after_categories": ["Pizze", "Main Courses"]
+    }
   },
   {
     "name": "Antipasto misto di terra (for 3-4 people)",
     "price": 790,
     "description": ["Platter with selected Italian cheeses (gorgonzola, pecorino romano, 24-month aged parmesan), cured Italian meats (ventricina, schiacciata, Parma ham and beef prosciutto), vegetables and bruschetta"],
-    "category": "Antipasti"
+    "category": "Antipasti",
+    "meal_type": "starter_food",
+    "suggestions": {
+      "pairs_with_categories": ["Aperitivi", "Wine", "Beer"],
+      "upsell_notes": ["Ideal for sharing before any main course."]
+    }
   },
   {
     "name": "Tris di Bruchette",
     "price": 190,
     "description": ["mix of bruschetta"],
-    "category": "Antipasti"
+    "category": "Antipasti",
+    "meal_type": "starter_food",
+    "suggestions": {
+      "pairs_with_categories": ["Aperitivi", "Wine"],
+      "after_categories": ["Pizze", "Main Courses"]
+    }
   },
   {
     "name": "Polpette al sugo",
     "price": 210,
     "description": ["meatballs in tomato sauce and parmesan"],
-    "category": "Antipasti"
+    "category": "Antipasti",
+    "meal_type": "starter_food",
+    "suggestions": {
+      "pairs_with_categories": ["Aperitivi", "Wine"],
+      "after_categories": ["Pizze", "Main Courses"]
+    }
   },
   {
     "name": "Carpese",
     "price": 230,
     "description": ["fresh mozzarella salad, tomato and extra virgin olive oil"],
-    "category": "Antipasti"
+    "category": "Antipasti",
+    "meal_type": "starter_food",
+    "suggestions": {
+      "pairs_with_categories": ["Aperitivi", "Wine", "Soft Drinks"],
+      "after_categories": ["Pizze", "Main Courses"]
+    }
   },
   {
     "name": "Bresaola",
     "price": 460,
     "description": ["beef prosciutto ravioli filled with arugula and aged ricotta, served with artichoke, arugula and parmesan flakes"],
-    "category": "Antipasti"
-  },
-  {
+    "category": "Antipasti",
+    "meal_type": "starter_food",
+    "suggestions": {
+      "pairs_with_categories": ["Wine", "Aperitivi"],
+      "after_categories": ["Pizze", "Main Courses"]
+    }
+  },{
     "name": "Broccoli a modo Mio",
     "price": 160,
     "description": ["broccoli with garlic", "hot peppers", "extra virgin olive oil"],
-    "category": "Contorni"
+    "category": "Contorni",
+    "meal_type": "side_dish",
+    "suggestions": {
+      "pairs_with_categories": ["Pizze", "Main Courses"]
+    }
   },
   {
     "name": "Patatine fritte",
     "price": 140,
     "description": ["french fries"],
-    "category": "Contorni"
+    "category": "Contorni",
+    "meal_type": "side_dish",
+    "suggestions": {
+      "pairs_with_categories": ["Pizze", "Main Courses"]
+    }
   },
   {
     "name": "Rucola",
     "price": 190,
     "description": ["arugula", "fresh tomato", "parmesan flakes"],
-    "category": "Contorni"
+    "category": "Contorni",
+    "meal_type": "side_dish",
+    "suggestions": {
+      "pairs_with_categories": ["Pizze", "Main Courses", "Grilled Meats"],
+      "upsell_notes": ["A light and fresh addition to any main meal."]
+    }
   },
   {
     "name": "Insalata Mista",
     "price": 150,
     "description": ["mixed salad"],
-    "category": "Contorni"
+    "category": "Contorni",
+    "meal_type": "side_dish",
+    "suggestions": {
+      "pairs_with_categories": ["Pizze", "Main Courses", "Grilled Meats", "Pasta"],
+      "before_categories": ["Pizze", "Main Courses"],
+      "upsell_notes": ["A refreshing side or light starter."]
+    }
   },
   {
     "name": "Caponata",
     "price": 160,
     "description": ["fried vegetable mix with tomato sauce"],
-    "category": "Contorni"
-  },
-  {
+    "category": "Contorni",
+    "meal_type": "side_dish",
+    "suggestions": {
+      "pairs_with_categories": ["Pizze", "Main Courses"]
+    }
+  }, {
     "name": "Affogato al Caffe/+ Liquorevg",
     "price": [140, 240],
     "description": ["vanilla ice cream with espresso/+ liqueur"],
-    "category": "Dolci"
+    "category": "Dolci",
+    "meal_type": "dessert",
+    "suggestions": {
+      "pairs_with_categories": ["Coffee", "Digestivi"],
+      "upsell_notes": ["A delightful coffee-based dessert."]
+    }
   },
   {
     "name": "Pizza alla Nutella",
     "price": 260,
     "description": ["Nutella pizza"],
-    "category": "Dolci"
+    "category": "Dolci",
+    "meal_type": "dessert",
+    "suggestions": {
+      "pairs_with_categories": ["Coffee", "Digestivi", "Sweet Wine"],
+      "upsell_notes": ["A sweet Italian treat, great for sharing!"]
+    }
   },
   {
     "name": "Tiramisu",
     "price": 200,
     "description": ["tiramisu"],
-    "category": "Dolci"
+    "category": "Dolci",
+    "meal_type": "dessert",
+    "suggestions": {
+      "pairs_with_categories": ["Coffee", "Digestivi", "Sweet Wine"],
+      "upsell_notes": ["Our classic homemade Tiramisu."]
+    }
   },
   {
     "name": "Gelati Italiani(vaniglia fragola cioccolato)",
     "price": 190,
     "description": ["Italian ice cream with vanilla, chocolate, strawberry"],
-    "category": "Dolci"
+    "category": "Dolci",
+    "meal_type": "dessert",
+    "suggestions": {
+      "pairs_with_categories": ["Coffee", "Soft Drinks"]
+    }
   },
   {
     "name": "Sorbeto al limone",
     "price": 190,
     "description": ["lemon sorbet"],
-    "category": "Dolci"
+    "category": "Dolci",
+    "meal_type": "dessert",
+    "suggestions": {
+      "pairs_with_categories": ["Coffee", "Digestivi"],
+      "upsell_notes": ["A refreshing palate cleanser."]
+    }
   },
   {
     "name": "Lemon sgroppino",
     "price": 190,
     "description": ["lemon sorbet and prosecco cocktail"],
-    "category": "Dolci"
+    "category": "Dolci",
+    "meal_type": "dessert_drink",
+    "suggestions": {
+      "pairs_with_categories": ["Coffee", "Digestivi"]
+    }
   }
 ]
