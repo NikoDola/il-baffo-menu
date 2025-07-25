@@ -117,7 +117,6 @@
 
 /* Add a very basic style for the See Suggestions button in Menu.css if desired */
 .seeSuggestionButton {
-
   color: white;
   padding: 5px 10px;
   border-radius: 5px;
@@ -126,7 +125,7 @@
   text-align: center;
   margin-top: 5px; /* Adjust spacing as needed */
   transition: background-color 0.2s ease;
-  width: 30%;
+  width: 40%;
     border: 0.5px solid white ;
 }
 

@@ -184,7 +184,7 @@ export default function Menu() {
                                      {hasSuggestions ? (
                       // When clicked, open the modal and pass the current item
                       <div className="seeSuggestionButton" onClick={() => openSuggestionModal(item)}>
-                        What Goes With This?
+                        What Goes With {item.name}?
                       </div>
                     ) : (
                       // Optionally, display nothing or a placeholder if no suggestions

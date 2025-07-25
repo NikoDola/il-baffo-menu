@@ -1,7 +1,8 @@
 // components/SuggestionModal.tsx
 "use client";
 import React from 'react';
-import Image from 'next/image'; // Assuming you might want images for suggested items later
+import { Pizza, Wine, IceCream } from 'lucide-react'; // choose icons you like
+
 import './SuggestionModal.css'; // You'll need to create this CSS file
 
 // Redefine MenuType interface here as well for consistency
