@@ -1,0 +1,200 @@
+.menuWrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: black;
+  color: white;
+  padding: 2rem;
+  font-family: 'Arial', sans-serif;
+}
+
+.logoWrapper {
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.languagesWrapper {
+  display: flex;
+  gap: 1.5rem;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.language, .languageSelected {
+  width: 40px;
+  height: auto;
+  padding: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.language:hover {
+  transform: scale(1.1);
+}
+
+.languageSelected {
+  background-color: white;
+  border-radius: 50%;
+}
+
+.menuItemsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.categorySection {
+  margin-bottom: 3rem;
+  border-bottom: 2px solid #444;
+  padding-bottom: 1.5rem;
+}
+
+.categoryTitle {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+.categoryTitle::selection{
+  background-color: green;
+  color: white;
+}
+
+.categoryTitle::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  height: 3px;
+  background: #fff;
+}
+
+.menuItemWrapper {
+  border-bottom: 1px solid #333;
+  padding: 1rem 0;
+  position: relative;
+}
+
+.itemName {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #fff;
+  padding-right: 100px;
+}
+.itemName::selection{
+  background-color: white;
+  color: black;
+}
+
+.descriptionWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  gap: 1rem;
+  margin-bottom: 1rem;
+
+}
+
+.descriptionItem {
+  font-size: 0.9rem;
+  color: #ccc;
+  
+}
+
+.descriptionItem::selection {
+  background-color: red;
+  color: white;
+}
+
+.priceBox {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #333;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #555;
+}
+
+.priceCurrency {
+  font-size: 0.7rem;
+  color: #aaa;
+}
+
+.priceValue {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.loadingText {
+  text-align: center;
+  color: #ccc;
+  font-style: italic;
+}
+
+.phoneNumber {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #333;
+  padding: 0.8rem 1.2rem;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid #555;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.phoneNumber:hover {
+  background-color: rgb(109, 109, 109);
+}
+
+@media (max-width: 768px) {
+  .menuWrapper {
+    padding: 1rem;
+  }
+  
+  .logoWrapper img {
+    width: 250px;
+    height: auto;
+  }
+  
+  .categoryTitle {
+    font-size: 1.5rem;
+  }
+  
+  .itemName {
+    font-size: 1.1rem;
+    padding-right: 80px;
+  }
+  
+  .priceBox {
+    padding: 0.3rem 0.8rem;
+  }
+  .descriptionItem{
+    margin-right: 0.3rem;
+  }
+  .descriptionWrapper {
+    gap: 0;
+    width: 76%;
+  }
+}
+

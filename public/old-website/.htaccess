@@ -1,0 +1,5 @@
+RewriteEngine On
+
+# If the hostname does not start with www.
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [L,R=301]

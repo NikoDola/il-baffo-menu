@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html class="" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IL BAFFO</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/plugins/aos.css">
+    <link rel="stylesheet" href="./css/plugins/fontawesome.min.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/plugins/lg.css">
+    <meta property="og:image" content="./images/gallery/hero.jpg" />
+
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/plugins/plugins.js"></script>
+    <script src="./js/plugins/lg.js"></script>
+    <script src="./js/plugins/aos.js"></script>
+    <script defer src="./js/main.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"
+        integrity="sha512-tHvUcUQYi35zApvAa5TNR3fNhBQkVtkmWKfacnpxmix4/VTGz1lGjIVyLMp7gLgAvg+aKJjnVKokXJNS5GZ+/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body class="">
+    <div class="mobile-menu-content h-100 bg-primary" onclick="event.stopPropagation();">
+        <div class="mobile-menu h-100 bg-primary d-flex flex-column">
+            <div class="mobile-menu__top px-16 text-black py-10 d-flex align-center justify-end">
+
+
+                <button class="bg-transparent z-9 relative" onclick="onNavClick();">
+                    <div class="nav-toggle d-flex">
+                        <span class="first"></span>
+                        <span class="second"></span>
+                        <span class="third"></span>
+                    </div>
+                </button>
+            </div>
+
+            <div class="mobile-menu__links relative top-[-50px] h-100 active d-flex flex-column flex-center mobile-screen"
+                data-screen="1">
+
+                <a href="index.php" class="m-logo text-black mb-20">
+                    <img class="filter-invert filtered" width="250" src="./images/logo.png" alt="">
+                </a>
+
+                <a href="index.php?<?= time() + 1 ?>#story" class="m-link py-10 px-16 text-white d-flex justify-between align-center">
+                    <span class="f-size-32 text-white f-weight-500 relative size-fix">Нашата
+                        приказна</span>
+                </a>
+
+                <a href="index.php?<?= time() + 2 ?>#menu"
+                    class="m-link py-10 px-16 text-white d-flex justify-between align-center">
+                    <span class="f-size-32 text-white f-weight-500 relative size-fix">Нашето мени</span>
+                </a>
+
+                <a href="index.php?<?= time() + 3 ?>#contact"
+                    class="m-link py-10 px-16 text-white d-flex justify-between align-center">
+                    <span class="f-size-32 text-white f-weight-500 relative size-fix">Контакт</span>
+                </a>
+                <div class="my-20"></div>
+                <a class="d-flex bb b-2 b-white mx-12 pb-4 f-weight-500 text-white mdd-mx-12 mdd-f-size-14 d-flex align-center"
+                    href="tel: 078 669 092">
+                    <i class="fa-solid fa-phone mr-4 f-size-15 mdd-f-size-13"></i>
+                    <span>ПОВИКАЈ ILBAFFO</span>
+                </a>
+
+                <div
+                    class="py-12 d-flex px-24 ml-12 bg-primary text-white radius-1 d-flex align-center f-weight-500 text-black mdd-f-size-14 mdd-px-12">
+                    <i class="fa-solid fa-clock mr-4"></i>
+                    <span>08:00 - 23:00</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="hero-wrap overflow-hidden relative">
+        <div class="absolute w-100 h-100 d-flex">
+            <img class="w-100 h-100 object-fit-cover" src="./images/white1.png" alt="">
+        </div>
+        <div class="nav-wrap relative z-2 d-flex justify-between align-center container-xl mx-auto">
+            <div class="nav-left lgt-d-none smd-d-none flex-1 d-flex align-center">
+                <a class="py-24 d-flex px-12 f-weight-500 text-black mdd-px-8 hover-text-primary mdd-f-size-15" href="#story">
+                    <span>НАШАТА ПРИКАЗНА</span>
+                </a>
+
+                <a class="py-24 d-flex px-12 f-weight-500 text-black mdd-px-8 hover-text-primary mdd-f-size-15" href="#menu">
+                    <span>НАШЕТМЕНИО </span>
+                </a>
+
+                <a class="py-24 d-flex px-12 f-weight-500 text-black mdd-px-8 hover-text-primary mdd-f-size-15" href="#contact">
+                    <span>КОНТАКТ</span>
+                </a>
+            </div>
+
+            <a href="index.php" class="py-24">
+                <img class="w-[220px] mdd-w-[150px] lap-w-[130px] lgt-w-[160px]" src="./images/logo.png" alt="">
+            </a>
+
+            <div class="nav-right lgt-d-none justify-end flex-1 d-flex align-center">
+                <a class="d-flex bb b-2 b-black mx-12 pb-4 f-weight-500 text-black mdd-mx-12 mdd-f-size-14 d-flex align-center hover-text-primary"
+                    href="tel: 078 669 092">
+                    <i class="fa-solid fa-phone mr-4 f-size-15 mdd-f-size-13"></i>
+                    <span>ПОВИКАЈ ILBAFFO</span>
+                </a>
+
+                <div
+                    class="py-12 d-flex px-24 ml-12 bg-primary text-white radius-1 d-flex align-center f-weight-500 text-black mdd-f-size-14 mdd-px-12 hover-text-primary">
+                    <i class="fa-solid fa-clock mr-4"></i>
+                    <span>08:00 - 23:00</span>
+                </div>
+            </div>
+
+
+            <div class="nav-toggle d-none ml-12 smd-d-flex" onclick="onNavClick();">
+                <span class="first"></span>
+                <span class="second"></span>
+                <span class="third"></span>
+            </div>
+        </div>
+
+        <div class="hero-in relative z-2 section-padding-md px-20 d-flex flex-column flex-center">
+            <div class="hero-in__title container-xl text-center f-weight-600">
+                <h1 data-aos="fade-up" class="f-2 text-uppercase smd-f-4 sm-f-size-[40px]">Приказна за <span class="text-secondary">љубов,</span>
+                    <span class="text-primary">пријателство</span> <span class="text-secondary">и италијански
+                        вкусови</span>
+                </h1>
+
+                <p data-aos="fade-up" class="f-weight-500 lh-[30px] container sm-w-[100%] sm-max-w-[100%] mt-12 mx-auto smd-mt-8 smd-f-size-14">Со секој залак ќе откриете совршен баланс на
+                    кремасти сирења, нежна кора и богат,
+                    препознатлив вкус кој носи духот на Наполи директно на вашата маса. Во Il Baffo, секој детал е со
+                    вкус, секој залак е уметност 🍕</p>
+            </div>
+
+            <div class="marq horizontal-loop d-flex section-padding-sm with-bottom">
+                <div class="img-one for-scroll drop-shadow-2xl">
+                    <img class="max-w-[360px] smd-w-[240px] sm-w-[180px] overflow-hidden" src="./images/pizza/1.png" alt="">
+                </div>
+                <div class="img-one for-scroll drop-shadow-2xl">
+                    <img class="max-w-[360px] smd-w-[240px] sm-w-[180px] overflow-hidden" src="./images/pizza/2.png" alt="">
+                </div>
+                <div class="img-one for-scroll drop-shadow-2xl">
+                    <img class="max-w-[360px] smd-w-[240px] sm-w-[180px] overflow-hidden" src="./images/pizza/3.webp" alt="">
+                </div>
+                <!-- <div class="img-one for-scroll drop-shadow-2xl">
+                    <img class="max-w-[360px] smd-w-[240px] sm-w-[180px] overflow-hidden" src="./images/pizza/4.webp" alt="">
+                </div> -->
+
+                <div class="img-one for-scroll drop-shadow-2xl">
+                    <img class="max-w-[360px] smd-w-[240px] sm-w-[180px] overflow-hidden" src="./images/pizza/5.png" alt="">
+                </div>
+                <!-- <div class="img-one for-scroll drop-shadow-2xl">
+                    <img class="max-w-[360px] smd-w-[240px] sm-w-[180px] overflow-hidden" src="./images/pizza/6.png" alt="">
+                </div> -->
+                <div class="img-one for-scroll drop-shadow-2xl">
+                    <img class="max-w-[360px] smd-w-[240px] sm-w-[180px] overflow-hidden" src="./images/pizza/7.webp" alt="">
+                </div>
+                <div class="img-one for-scroll drop-shadow-2xl">
+                    <img class="max-w-[360px] smd-w-[240px] sm-w-[180px] overflow-hidden" src="./images/pizza/8.webp" alt="">
+                </div>
+
+                <div class="img-one for-scroll drop-shadow-2xl">
+                    <img class="max-w-[360px] smd-w-[240px] sm-w-[180px] overflow-hidden" src="./images/pizza/9.webp" alt="">
+                </div>
+                <div class="img-one for-scroll drop-shadow-2xl">
+                    <img class="max-w-[360px] smd-w-[240px] sm-w-[180px] overflow-hidden" src="./images/pizza/10.png" alt="">
+                </div>
+                <div class="img-one for-scroll drop-shadow-2xl">
+                    <img class="max-w-[360px] smd-w-[240px] sm-w-[180px] overflow-hidden" src="./images/pizza/11.webp" alt="">
+                </div>
+                <div class="img-one for-scroll drop-shadow-2xl">
+                    <img class="max-w-[360px] smd-w-[240px] sm-w-[180px] overflow-hidden" src="./images/pizza/12.webp" alt="">
+                </div>
+
+
+                <div class="img-one for-scroll drop-shadow-2xl">
+                    <img class="max-w-[360px] smd-w-[240px] sm-w-[180px] overflow-hidden" src="./images/pizza/13.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="story" class="ourstory overflow-hidden with-bottom section-padding relative">
+        <div class="absolute w-100 h-100 d-flex">
+            <img class="w-100 h-100 object-fit-cover" src="./images/white1.png" alt="">
+        </div>
+        <div class="story relative z-2 mx-auto container-xl d-grid col-2 md-col-1 smd-grid-gap-32 grid-gap-48">
+            <div class="story__img">
+                <img data-aos="zoom-in" class="w-100 h-100 object-fit-cover" src="./images/hero.jpg" alt="">
+            </div>
+
+            <div class="story__content d-flex flex-column justify-center">
+                <h2 data-aos="fade-up" class="f-1 lap-f-2 md-left-[0px] relative left-[-120px] text-secondary family-third f-weight-600 md-f-3">
+                    Нашата приказна</h2>
+
+                <p data-aos="fade-up" class="mt-12 f-weight-500 smd-f-size-14 smd-lh-[25px] lh-[30px]">
+                    Тоа е првиот вистински италијански ресторан во Битола, каде што љубовта, семејството и
+                    пријателството создадоа магија во чинија. <br><br>
+                    Ова е приказна за битолчанец кој го следеше срцето до Италија, се заљуби во Италијанка и ја донесе
+                    нивната страст за храна назад дома. <br><br>
+                    Со својот бизнис партнер и долгогодишен другар, создадоа место кое дише со италијанска традиција.
+                    <br><br>
+                    А Италијанката? <br>
+                    Таа ги донесе и своите родители во Битола, за заедно да ја готват нивната автентична италијанска
+                    храна. <br>
+                    Името IL BAFFO, кое на македонски значи „мустак“, е посвета на таткото на Италијанката, кој е
+                    вистински симбол на ова семејство – со својата страст за готвење и италијански шарм. <br>
+                    Во IL BAFFO не сте само гости – вие сте дел од семејството. <br>
+                    Вкусете ја приказната ▪️ Benvenuti 🇮🇹
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="menu" class="gallery bg-black d-flex flex-column flex-center">
+        <div class="container-xl section-padding with-bottom">
+            <h2 class="text-white text-center f-1 smd-f-2 sm-f-3 family-third">
+                Нашето мени
+            </h2>
+            <br>
+
+            <p class="text-white text-center lh-[30px] sm-f-size-14 sm-lh-[25px]">
+                Вкус од соништата 🍕✨ <br>
+                Пица со тенко крцкаво тесто, најдобрите состојки донесени од Италија и љубов од нашите пица мајстори во
+                кујната. <br>
+                Денес ви ја препорачуваме нашата специјална пица со кремаста бурaта и слој од најфината мортадела.
+            </p>
+
+            <div class="btn-out d-flex flex-center pt-20">
+                <!-- <button class="bg-white text-black px-20 py-10 radius-1 f-weight-500">
+                    <span>НАШЕТО МЕНИ</span>
+                </button> -->
+            </div>
+
+            <div class="gallery-sm section-padding-sm d-grid col-3 sm-col-2 sm-grid-gap-14 grid-gap-24">
+                <img data-aos="zoom-in" class="w-100 h-100 d-flex object-fit-cover radius-1" src="./images/gal/1.jpg" alt="">
+                <img data-aos="zoom-in" class="w-100 h-100 d-flex object-fit-cover radius-1" src="./images/gal/2.jpg" alt="">
+                <img data-aos="zoom-in" class="w-100 h-100 d-flex object-fit-cover radius-1" src="./images/gal/3.jpg" alt="">
+                <img data-aos="zoom-in" class="w-100 h-100 d-flex object-fit-cover radius-1" src="./images/gal/4.jpg" alt="">
+                <img data-aos="zoom-in" class="w-100 h-100 d-flex object-fit-cover radius-1" src="./images/gal/5.jpg" alt="">
+                <img data-aos="zoom-in" class="w-100 h-100 d-flex object-fit-cover radius-1" src="./images/gal/6.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <div id="contact"
+        class="translate-form relative section-padding with-bottom container-xl mx-auto d-grid col-2 lgt-col-1 grid-gap-32 relative">
+        <div class="absolute top-0 left-0 w-100 h-100">
+            <img class="w-100 h-100 object-fit-cover d-flex" src="./images/white1.png" alt="">
+        </div>
+        <div class="translate-one relative z-2 d-flex flex-column">
+            <div data-aos="fade-up" class="prehead d-flex align-center">
+                <div class="prehead__icon w-[50px] h-[50px] bg-primary radius-full d-flex flex-center">
+                    <i class="fa-regular fa-comments text-white"></i>
+                </div>
+
+                <span class="ml-20 text-primary">КОНТАКТ</span>
+            </div>
+            <h4 class="f-3 f-weight-500 md-f-4 mt-10">Како до нас?</h4>
+
+            <div class="contact-infos relative z-2 mt-24 d-flex flex-column grid-gap-20">
+                <div
+                    class="contact-info box-shadow-md py-12 bg-white bg-opacity-100 px-20 radius-2 d-flex align-center">
+                    <div
+                        class="contact-info__icon relative w-[55px] h-[55px] bg-primary bg-opacity-20 d-flex flex-center radius-full">
+                        <i class="fa-solid fa-phone text-primary f-size-24"></i>
+
+                    </div>
+                    <a href="tel: 078 669 092" target="_blank" class="contact-info__p ml-20 f-size-24 text-primary">
+                        <span>078 669 092</span>
+                    </a>
+                </div>
+
+                <div
+                    class="contact-info box-shadow-md py-12 bg-white bg-opacity-100 px-20 radius-2 d-flex align-center">
+                    <div
+                        class="contact-info__icon relative w-[55px] h-[55px] bg-primary bg-opacity-20 d-flex flex-center radius-full">
+                        <i class="fa-solid fa-envelope text-primary f-size-24"></i>
+
+                    </div>
+                    <a href="mailto: ciao@ilbaffo.mk" target="_blank"
+                        class="contact-info__p ml-20 f-size-24 text-primary">
+                        <span>ciao@ilbaffo.mk</span>
+                    </a>
+                </div>
+
+                <div
+                    class="contact-info box-shadow-md py-12 bg-white bg-opacity-100 px-20 radius-2 d-flex align-center">
+                    <div
+                        class="contact-info__icon relative w-[55px] h-[55px] bg-primary bg-opacity-20 d-flex flex-center radius-full">
+                        <i class="fa-solid fa-location-dot text-primary f-size-24"></i>
+
+                    </div>
+                    <a href="https://maps.app.goo.gl/Ksu8xfWYDV5cJ3aBA" target="_blank"
+                        class="contact-info__p ml-20 f-size-24 text-primary">
+                        <span>Кирил и Методиј 5, Битола 7000</span>
+                    </a>
+                </div>
+
+                <div
+                    class="contact-info box-shadow-md py-12 bg-white bg-opacity-100 px-20 radius-2 d-flex align-center">
+                    <div
+                        class="contact-info__icon relative w-[55px] h-[55px] bg-primary bg-opacity-20 d-flex flex-center radius-full">
+                        <i class="fa-brands fa-facebook-f text-primary f-size-24"></i>
+                    </div>
+                    <a href="https://www.facebook.com/profile.php?id=61571610909641" target="_blank"
+                        class="contact-info__p ml-20 f-size-24 text-primary">
+                        <span>Facebook</span>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="translate-one relative z-2 section-padding-sm">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1504.9166527614582!2d21.333936438846774!3d41.028902742836884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135725f9cee92337%3A0x27fef22dbb10396f!2sPizza%20Il%20Baffo!5e0!3m2!1sen!2smk!4v1737720725504!5m2!1sen!2smk"
+                class="w-100 h-[450px]" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    </div>
+
+    <div class="footer bg-primary d-flex flex-center">
+        <p class="text-white py-[20px] text-center">Copyright &copy; 2025 | IL BAFFO</p>
+    </div>
+
+</body>
+
+</html>

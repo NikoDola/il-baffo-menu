@@ -1,7 +1,7 @@
 // components/SuggestionModal.tsx
 "use client";
 import React from 'react';
-import { Pizza, Wine, IceCream } from 'lucide-react'; // choose icons you like
+
 
 import './SuggestionModal.css'; // You'll need to create this CSS file
 

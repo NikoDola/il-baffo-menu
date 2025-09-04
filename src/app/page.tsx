@@ -1,9 +1,27 @@
-import Menu from "../components/Menu";
+'use client';
+
+import { useEffect } from 'react';
+import Header from '../components/Header';
+import Hero from '../components/Hero';
+import Story from '../components/Story';
+import Menu from '../components/Menu';
+import Contact from '../components/Contact';
+import Footer from '../components/Footer';
+import { initAll } from '../utils/animations';
 
 export default function Home() {
+  useEffect(() => {
+    initAll();
+  }, []);
+
   return (
-    <section>
+    <main>
+      <Header />
+      <Hero />
+      <Story />
       <Menu />
-    </section>
+      <Contact />
+      <Footer />
+    </main>
   );
 }
