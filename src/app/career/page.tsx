@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
+import Image from 'next/image';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import { initAll } from '../../utils/animations';
@@ -57,10 +58,11 @@ export default function CareerPage() {
       {/* Hero Section */}
       <section className="hero-wrap overflow-hidden relative">
         <div className="absolute w-100 h-100 d-flex">
-          <img
+          <Image
             className="w-100 h-100 object-fit-cover"
             src="/images/white1.png"
             alt="Background"
+            fill
           />
         </div>
 
@@ -83,10 +85,12 @@ export default function CareerPage() {
             {jobListings.map((job) => (
               <div key={job.id} className="job-card">
                 <div className="job-card__image">
-                  <img
+                  <Image
                     src={job.image}
                     alt={job.title}
                     className="w-100 h-100 object-fit-cover"
+                    width={400}
+                    height={200}
                   />
                 </div>
 

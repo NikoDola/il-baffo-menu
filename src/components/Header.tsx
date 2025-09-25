@@ -35,7 +35,7 @@ export default function Header() {
           </div>
 
           <div className="mobile-menu__links relative top--50 h-100 active d-flex flex-column flex-center mobile-screen">
-            <a href="/" className="m-logo text-black mb-20">
+            <Link href="/" className="m-logo text-black mb-20">
               <Image
                 className="filter-invert filtered"
                 width={250}
@@ -43,7 +43,7 @@ export default function Header() {
                 src="/images/logo.png"
                 alt="IL BAFFO Logo"
               />
-            </a>
+            </Link>
 
             <button
               onClick={() => scrollToSection('story')}
@@ -133,7 +133,7 @@ export default function Header() {
             </button>
           </div>
 
-          <a href="/" className="py-24">
+          <Link href="/" className="py-24">
             <Image
               className="w-220 mdd-w-150 lap-w-130 lgt-w-160"
               src="/images/logo.png"
@@ -141,7 +141,7 @@ export default function Header() {
               width={220}
               height={100}
             />
-          </a>
+          </Link>
 
           <div className="nav-right lgt-d-none justify-end flex-1 d-flex align-center">
             <div className="d-flex align-center f-weight-500 text-black mdd-f-size-14 mr-12">

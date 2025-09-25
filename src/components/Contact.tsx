@@ -1,8 +1,10 @@
+import Image from 'next/image';
+
 export default function Contact() {
   return (
     <div id="contact" className="translate-form relative section-padding with-bottom container-xl mx-auto d-grid col-2 lgt-col-1 grid-gap-32 relative">
       <div className="absolute top-0 left-0 w-100 h-100">
-        <img className="w-100 h-100 object-fit-cover d-flex" src="/images/white1.png" alt="" />
+        <Image className="w-100 h-100 object-fit-cover d-flex" src="/images/white1.png" alt="" fill />
       </div>
 
       <div className="translate-one relative z-2 d-flex flex-column">
