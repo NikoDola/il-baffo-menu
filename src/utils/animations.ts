@@ -22,41 +22,9 @@ export const initAnimations = () => {
 };
 
 export const initMobileMenu = () => {
-  const mobileMenuContent = document.querySelector('.mobile-menu-content');
-  const navToggles = document.querySelectorAll('.nav-toggle');
-  const body = document.body;
-
-  const toggleMobileMenu = () => {
-    navToggles.forEach(el => {
-      el.classList.toggle('opened');
-    });
-
-    if (mobileMenuContent) {
-      mobileMenuContent.classList.toggle('opened');
-    }
-
-    body.classList.toggle('overlay');
-
-    setTimeout(() => {
-      if (body.classList.contains('overlay')) {
-        body.setAttribute('onclick', 'toggleMobileMenu();');
-      } else {
-        body.removeAttribute('onclick');
-      }
-    }, 100);
-  };
-
-  // Add click handlers to nav toggles
-  navToggles.forEach(toggle => {
-    toggle.addEventListener('click', toggleMobileMenu);
-  });
-
-  // Close menu when clicking outside
-  if (mobileMenuContent) {
-    mobileMenuContent.addEventListener('click', (e) => {
-      e.stopPropagation();
-    });
-  }
+  // Mobile menu is now handled by React state in Header component
+  // This function is kept for compatibility but does nothing
+  // The React component handles all mobile menu functionality
 };
 
 export const initSmoothScrolling = () => {

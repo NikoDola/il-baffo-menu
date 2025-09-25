@@ -1,14 +1,24 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isRestaurantOpen, setIsRestaurantOpen] = useState(true);
+  const [currentTime, setCurrentTime] = useState('');
 
   const toggleMobileMenu = () => {
-    setIsMobileMenuOpen(!isMobileMenuOpen);
+    const newState = !isMobileMenuOpen;
+    setIsMobileMenuOpen(newState);
+
+    // Add/remove overlay class to body
+    if (newState) {
+      document.body.classList.add('overlay');
+    } else {
+      document.body.classList.remove('overlay');
+    }
   };
 
   const scrollToSection = (sectionId: string) => {
@@ -17,7 +27,39 @@ export default function Header() {
       element.scrollIntoView({ behavior: 'smooth' });
     }
     setIsMobileMenuOpen(false);
+    document.body.classList.remove('overlay');
   };
+
+  // Function to check if restaurant is open
+  const checkRestaurantStatus = () => {
+    const now = new Date();
+    const currentHour = now.getHours();
+    const currentMinute = now.getMinutes();
+    const currentTimeString = now.toLocaleTimeString('mk-MK', {
+      hour: '2-digit',
+      minute: '2-digit',
+      timeZone: 'Europe/Skopje'
+    });
+
+    setCurrentTime(currentTimeString);
+
+    // Restaurant is open from 08:00 to 23:00
+    const isOpen = (currentHour >= 8 && currentHour < 23);
+    setIsRestaurantOpen(isOpen);
+  };
+
+  // Cleanup effect to remove overlay class when component unmounts
+  useEffect(() => {
+    checkRestaurantStatus();
+
+    // Update time every minute
+    const interval = setInterval(checkRestaurantStatus, 60000);
+
+    return () => {
+      document.body.classList.remove('overlay');
+      clearInterval(interval);
+    };
+  }, []);
 
   return (
     <>
@@ -75,18 +117,20 @@ export default function Header() {
 
             <div className="my-20"></div>
 
+            <div className={`py-12 d-flex px-24 ml-12 text-white radius-1 d-flex align-center f-weight-500 mdd-f-size-14 mdd-px-12 ${isRestaurantOpen ? 'bg-green-500' : 'bg-red-500'}`}>
+              <i className="fa-solid fa-clock mr-4"></i>
+              <span>08:00 - 23:00</span>
+            </div>
+
+            <div className="mt-20"></div>
+
             <a
-              className="d-flex bb b-2 b-white mx-12 pb-4 f-weight-500 text-white mdd-mx-12 mdd-f-size-14 d-flex align-center"
+              className="d-flex mx-12 py-10 px-16 f-weight-500 text-black bg-white radius-1 d-flex align-center"
               href="tel: 078 669 092"
             >
               <i className="fa-solid fa-phone mr-4 f-size-15 mdd-f-size-13"></i>
               <span>ПОВИКАЈ ILBAFFO</span>
             </a>
-
-            <div className="py-12 d-flex px-24 ml-12 bg-primary text-white radius-1 d-flex align-center f-weight-500 text-black mdd-f-size-14 mdd-px-12">
-              <i className="fa-solid fa-clock mr-4"></i>
-              <span>08:00 - 23:00</span>
-            </div>
           </div>
         </div>
       </div>
@@ -144,9 +188,10 @@ export default function Header() {
           </Link>
 
           <div className="nav-right lgt-d-none justify-end flex-1 d-flex align-center">
-            <div className="d-flex align-center f-weight-500 text-black mdd-f-size-14 mr-12">
+            <div className={`py-12 d-flex px-24 text-white radius-1 d-flex align-center f-weight-500 mdd-f-size-14 mr-12 ${isRestaurantOpen ? 'bg-green-500' : 'bg-red-500'}`}>
               <i className="fa-solid fa-clock mr-4 f-size-15 mdd-f-size-13"></i>
               <span>08:00 - 23:00</span>
+              <span className="ml-4 f-size-12">• {isRestaurantOpen ? 'Отворено' : 'Затворено'}</span>
             </div>
 
             <a

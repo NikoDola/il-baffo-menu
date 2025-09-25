@@ -70,7 +70,7 @@ export default function CareerPage() {
         <div className="hero-in relative z-2 section-padding-md px-20 d-flex flex-column flex-center">
           <div className="hero-in__title container-xl text-center f-weight-600">
             <h1 className="f-2 text-uppercase smd-f-4 sm-f-size-40">
-              <span className="text-primary">Кариера</span> во <span className="text-secondary">Il Baffo</span>
+              <span className="text-primary">КАРИЕРА</span> ВО <span className="text-secondary">ИЛ БАФО</span>
             </h1>
             <p className="f-weight-500 lh-30 container sm-w-100 sm-max-w-100 mt-12 mx-auto smd-mt-8 smd-f-size-14">
               Приклучи се во нашиот тим и стани дел од приказната за љубов, пријателство и италијански вкусови! 🍕

@@ -992,3 +992,22 @@ body.overlay {
   background-color: rgba(var(--primary-color-dark), 1) !important;
   color: white !important;
 }
+
+/* Red background for closed status */
+.bg-red-500 {
+  background-color: #ef4444 !important;
+}
+
+/* Green background for open status */
+.bg-green-500 {
+  background-color: #22c55e !important;
+}
+
+/* Text colors for open/closed status */
+.text-green-500 {
+  color: #22c55e !important;
+}
+
+.text-red-500 {
+  color: #ef4444 !important;
+}
