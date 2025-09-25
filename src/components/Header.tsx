@@ -59,6 +59,13 @@ export default function Header() {
               <span className="f-size-32 text-white f-weight-500 relative size-fix">Нашето мени</span>
             </button>
 
+            <a
+              href="/career"
+              className="m-link py-10 px-16 text-white d-flex justify-between align-center"
+            >
+              <span className="f-size-32 text-white f-weight-500 relative size-fix">Кариера</span>
+            </a>
+
             <button
               onClick={() => scrollToSection('contact')}
               className="m-link py-10 px-16 text-white d-flex justify-between align-center"
@@ -105,11 +112,17 @@ export default function Header() {
             </button>
 
             <button
-             
+
               className="py-24 d-flex px-12 f-weight-500 text-black mdd-px-8 hover-text-primary mdd-f-size-15"
             >
               <Link href={"/menu"} > <span>НАШЕТО МЕНИ</span></Link>
-             
+
+            </button>
+
+            <button
+              className="py-24 d-flex px-12 f-weight-500 text-black mdd-px-8 hover-text-primary mdd-f-size-15"
+            >
+              <Link href={"/career"} > <span>КАРИЕРА</span></Link>
             </button>
 
             <button
@@ -131,18 +144,18 @@ export default function Header() {
           </a>
 
           <div className="nav-right lgt-d-none justify-end flex-1 d-flex align-center">
+            <div className="d-flex align-center f-weight-500 text-black mdd-f-size-14 mr-12">
+              <i className="fa-solid fa-clock mr-4 f-size-15 mdd-f-size-13"></i>
+              <span>08:00 - 23:00</span>
+            </div>
+
             <a
-              className="d-flex bb b-2 b-black mx-12 pb-4 f-weight-500 text-black mdd-mx-12 mdd-f-size-14 d-flex align-center hover-text-primary"
+              className="py-12 d-flex px-24 bg-primary text-white radius-1 d-flex align-center f-weight-500 mdd-f-size-14 mdd-px-12 call-button"
               href="tel: 078 669 092"
             >
               <i className="fa-solid fa-phone mr-4 f-size-15 mdd-f-size-13"></i>
               <span>ПОВИКАЈ ILBAFFO</span>
             </a>
-
-            <div className="py-12 d-flex px-24 ml-12 bg-primary text-white radius-1 d-flex align-center f-weight-500 text-black mdd-f-size-14 mdd-px-12 hover-text-primary">
-              <i className="fa-solid fa-clock mr-4"></i>
-              <span>08:00 - 23:00</span>
-            </div>
           </div>
 
           <div className="nav-toggle d-none ml-12 smd-d-flex" onClick={toggleMobileMenu}>

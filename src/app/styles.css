@@ -972,3 +972,23 @@ body.overlay {
   backdrop-filter: blur(10px);
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
 }
+
+/* Clock button hover effect */
+.clock-hover {
+  transition: all 0.3s ease;
+}
+
+.clock-hover:hover {
+  background-color: rgba(var(--primary-color-dark), 1) !important;
+  color: white !important;
+}
+
+/* Call button hover effect */
+.call-button {
+  transition: all 0.3s ease;
+}
+
+.call-button:hover {
+  background-color: rgba(var(--primary-color-dark), 1) !important;
+  color: white !important;
+}

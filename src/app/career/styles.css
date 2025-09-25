@@ -1,0 +1,137 @@
+/* Career Page Styles */
+
+.job-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.job-card {
+  background: white;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.job-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+}
+
+.job-card__image {
+  height: 200px;
+  overflow: hidden;
+}
+
+.job-card__content {
+  padding: 1.5rem;
+}
+
+.job-card__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.job-emoji {
+  font-size: 2rem;
+  margin-right: 0.75rem;
+}
+
+.job-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin: 0;
+}
+
+.job-description {
+  margin-bottom: 1.5rem;
+}
+
+.job-description p {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+  color: var(--main-txt-color);
+}
+
+.benefit-line {
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+.job-location {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  color: var(--medium-color);
+  font-size: 0.9rem;
+}
+
+.job-call-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--primary-color);
+  color: white;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.job-call-button:hover {
+  background-color: rgba(var(--primary-color-dark), 1);
+  color: white;
+  transform: translateY(-2px);
+}
+
+.job-call-button i {
+  font-size: 1rem;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+  .job-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .job-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .job-card__content {
+    padding: 1.25rem;
+  }
+
+  .job-title {
+    font-size: 1.25rem;
+  }
+
+  .job-emoji {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .job-card__content {
+    padding: 1rem;
+  }
+
+  .job-title {
+    font-size: 1.125rem;
+  }
+
+  .job-call-button {
+    padding: 0.625rem 1.25rem;
+    font-size: 0.9rem;
+  }
+}
