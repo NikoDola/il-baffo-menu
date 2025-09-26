@@ -7,7 +7,6 @@ import Link from 'next/link';
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isRestaurantOpen, setIsRestaurantOpen] = useState(true);
-  const [currentTime, setCurrentTime] = useState('');
 
   const toggleMobileMenu = () => {
     const newState = !isMobileMenuOpen;
@@ -34,14 +33,6 @@ export default function Header() {
   const checkRestaurantStatus = () => {
     const now = new Date();
     const currentHour = now.getHours();
-    const currentMinute = now.getMinutes();
-    const currentTimeString = now.toLocaleTimeString('mk-MK', {
-      hour: '2-digit',
-      minute: '2-digit',
-      timeZone: 'Europe/Skopje'
-    });
-
-    setCurrentTime(currentTimeString);
 
     // Restaurant is open from 08:00 to 23:00
     const isOpen = (currentHour >= 8 && currentHour < 23);
@@ -67,7 +58,12 @@ export default function Header() {
       <div className={`mobile-menu-content ${isMobileMenuOpen ? 'opened' : ''}`} onClick={(e) => e.stopPropagation()}>
         <div className="mobile-menu h-100 bg-primary d-flex flex-column">
           <div className="mobile-menu__top px-16 text-black py-10 d-flex align-center justify-end">
-            <button className="bg-transparent z-9 relative" onClick={toggleMobileMenu}>
+            <button
+              className="bg-transparent z-9 relative"
+              onClick={toggleMobileMenu}
+              type="button"
+              aria-label="Close mobile menu"
+            >
               <div className="nav-toggle d-flex">
                 <span className="first"></span>
                 <span className="second"></span>
@@ -122,15 +118,26 @@ export default function Header() {
               <span>08:00 - 23:00</span>
             </div>
 
-            <div className="mt-20"></div>
+            <div className="mt-20 mb-20"></div>
 
-            <a
-              className="d-flex mx-12 py-10 px-16 f-weight-500 text-black bg-white radius-1 d-flex align-center"
-              href="tel: 078 669 092"
-            >
-              <i className="fa-solid fa-phone mr-4 f-size-15 mdd-f-size-13"></i>
-              <span>ПОВИКАЈ ILBAFFO</span>
-            </a>
+            {isRestaurantOpen ? (
+              <a
+                className="d-flex mx-12 py-10 px-16 f-weight-500 text-black bg-white radius-1 d-flex align-center"
+                href="tel: 078 669 092"
+              >
+                <i className="fa-solid fa-phone mr-4 f-size-15 mdd-f-size-13"></i>
+                <span>ПОВИКАЈ ILBAFFO</span>
+              </a>
+            ) : (
+              <button
+                className="d-flex mx-12 py-10 px-16 f-weight-500 text-white bg-gray-500 radius-1 d-flex align-center"
+                disabled
+                onClick={() => alert('Sorry, We are closed')}
+              >
+                <i className="fa-solid fa-phone mr-4 f-size-15 mdd-f-size-13"></i>
+                <span>ПОВИКАЈ ILBAFFO</span>
+              </button>
+            )}
           </div>
         </div>
       </div>
@@ -155,19 +162,19 @@ export default function Header() {
               <span>НАШАТА ПРИКАЗНА</span>
             </button>
 
-            <button
-
+            <Link
+              href="/menu"
               className="py-24 d-flex px-12 f-weight-500 text-black mdd-px-8 hover-text-primary mdd-f-size-15"
             >
-              <Link href={"/menu"} > <span>НАШЕТО МЕНИ</span></Link>
+              <span>НАШЕТО МЕНИ</span>
+            </Link>
 
-            </button>
-
-            <button
+            <Link
+              href="/career"
               className="py-24 d-flex px-12 f-weight-500 text-black mdd-px-8 hover-text-primary mdd-f-size-15"
             >
-              <Link href={"/career"} > <span>КАРИЕРА</span></Link>
-            </button>
+              <span>КАРИЕРА</span>
+            </Link>
 
             <button
               onClick={() => scrollToSection('contact')}
@@ -194,20 +201,36 @@ export default function Header() {
               <span className="ml-4 f-size-12">• {isRestaurantOpen ? 'Отворено' : 'Затворено'}</span>
             </div>
 
-            <a
-              className="py-12 d-flex px-24 bg-primary text-white radius-1 d-flex align-center f-weight-500 mdd-f-size-14 mdd-px-12 call-button"
-              href="tel: 078 669 092"
-            >
-              <i className="fa-solid fa-phone mr-4 f-size-15 mdd-f-size-13"></i>
-              <span>ПОВИКАЈ ILBAFFO</span>
-            </a>
+            {isRestaurantOpen ? (
+              <a
+                className="py-12 d-flex px-24 bg-primary text-white radius-1 d-flex align-center f-weight-500 mdd-f-size-14 mdd-px-12 call-button"
+                href="tel: 078 669 092"
+              >
+                <i className="fa-solid fa-phone mr-4 f-size-15 mdd-f-size-13"></i>
+                <span>ПОВИКАЈ ILBAFFO</span>
+              </a>
+            ) : (
+              <button
+                className="py-12 d-flex px-24 bg-gray-500 text-white radius-1 d-flex align-center f-weight-500 mdd-f-size-14 mdd-px-12 call-button-disabled"
+                disabled
+                onClick={() => alert('Sorry, We are closed')}
+              >
+                <i className="fa-solid fa-phone mr-4 f-size-15 mdd-f-size-13"></i>
+                <span>ПОВИКАЈ ILBAFFO</span>
+              </button>
+            )}
           </div>
 
-          <div className="nav-toggle d-none ml-12 smd-d-flex" onClick={toggleMobileMenu}>
+          <button
+            className="nav-toggle d-none ml-12 smd-d-flex"
+            onClick={toggleMobileMenu}
+            type="button"
+            aria-label="Toggle mobile menu"
+          >
             <span className="first"></span>
             <span className="second"></span>
             <span className="third"></span>
-          </div>
+          </button>
         </div>
       </div>
     </>

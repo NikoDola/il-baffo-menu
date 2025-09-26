@@ -165,6 +165,13 @@ body {
   font-family: var(--primary-font);
   font-weight: 400;
   /* Gilroy Regular for body text */
+  overflow-x: hidden;
+}
+
+/* Ensure all images are responsive and don't cause horizontal overflow */
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 a {

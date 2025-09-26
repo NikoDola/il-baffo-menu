@@ -65,8 +65,8 @@ export default function Hero() {
         </p>
       </div>
 
-      <div className="marq horizontal-loop d-flex section-padding-sm with-bottom">
-        <div ref={carouselRef} className="d-flex">
+      <div className="marq horizontal-loop d-flex section-padding-sm with-bottom" style={{ overflow: 'hidden', width: '100%' }}>
+        <div ref={carouselRef} className="d-flex" style={{ overflow: 'hidden', width: '100%' }}>
           {pizzaImages.map((image, index) => (
             <div key={index} className="img-one for-scroll drop-shadow-2xl">
               <Image

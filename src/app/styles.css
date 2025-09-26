@@ -599,14 +599,31 @@ h2 {
   display: flex;
   padding-top: var(--sp-sm);
   padding-bottom: var(--sp-sm);
+  overflow: hidden;
+  width: 100%;
 }
 
 .horizontal-loop {
   display: flex;
+  overflow: hidden;
+  width: 100%;
 }
 
 .img-one {
   margin-right: 1rem;
+  flex-shrink: 0;
+}
+
+/* Ensure carousel doesn't cause horizontal overflow */
+.for-scroll {
+  overflow: hidden;
+  max-width: 100%;
+}
+
+/* Additional carousel container constraints */
+.marq .d-flex {
+  overflow: hidden;
+  max-width: 100%;
 }
 
 /* Story Section */
@@ -993,6 +1010,18 @@ body.overlay {
   color: white !important;
 }
 
+/* Disabled call button styles */
+.call-button-disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+  transition: all 0.3s ease;
+}
+
+.call-button-disabled:hover {
+  background-color: #6b7280 !important;
+  color: white !important;
+}
+
 /* Red background for closed status */
 .bg-red-500 {
   background-color: #ef4444 !important;
@@ -1001,6 +1030,11 @@ body.overlay {
 /* Green background for open status */
 .bg-green-500 {
   background-color: #22c55e !important;
+}
+
+/* Gray background for disabled call button */
+.bg-gray-500 {
+  background-color: #6b7280 !important;
 }
 
 /* Text colors for open/closed status */
