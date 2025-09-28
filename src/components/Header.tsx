@@ -34,8 +34,8 @@ export default function Header() {
     const now = new Date();
     const currentHour = now.getHours();
 
-    // Restaurant is open from 08:00 to 23:00
-    const isOpen = (currentHour >= 8 && currentHour < 23);
+    // Restaurant is open from 12:00 to 23:00
+    const isOpen = (currentHour >= 12 && currentHour < 23);
     setIsRestaurantOpen(isOpen);
   };
 
@@ -64,7 +64,7 @@ export default function Header() {
               type="button"
               aria-label="Close mobile menu"
             >
-              <div className="nav-toggle d-flex">
+              <div className={`nav-toggle d-flex ${isMobileMenuOpen ? 'opened' : ''}`}>
                 <span className="first"></span>
                 <span className="second"></span>
                 <span className="third"></span>
@@ -90,12 +90,12 @@ export default function Header() {
               <span className="f-size-32 text-white f-weight-500 relative size-fix">Нашата приказна</span>
             </button>
 
-            <button
-              onClick={() => scrollToSection('menu')}
+            <Link
+              href="/menu"
               className="m-link py-10 px-16 text-white d-flex justify-between align-center"
             >
               <span className="f-size-32 text-white f-weight-500 relative size-fix">Нашето мени</span>
-            </button>
+            </Link>
 
             <a
               href="/career"
@@ -115,7 +115,7 @@ export default function Header() {
 
             <div className={`py-12 d-flex px-24 ml-12 text-white radius-1 d-flex align-center f-weight-500 mdd-f-size-14 mdd-px-12 ${isRestaurantOpen ? 'bg-green-500' : 'bg-red-500'}`}>
               <i className="fa-solid fa-clock mr-4"></i>
-              <span>08:00 - 23:00</span>
+              <span>12:00 - 23:00</span>
             </div>
 
             <div className="mt-20 mb-20"></div>
@@ -197,7 +197,7 @@ export default function Header() {
           <div className="nav-right lgt-d-none justify-end flex-1 d-flex align-center">
             <div className={`py-12 d-flex px-24 text-white radius-1 d-flex align-center f-weight-500 mdd-f-size-14 mr-12 ${isRestaurantOpen ? 'bg-green-500' : 'bg-red-500'}`}>
               <i className="fa-solid fa-clock mr-4 f-size-15 mdd-f-size-13"></i>
-              <span>08:00 - 23:00</span>
+              <span>12:00 - 23:00</span>
               <span className="ml-4 f-size-12">• {isRestaurantOpen ? 'Отворено' : 'Затворено'}</span>
             </div>
 
@@ -222,7 +222,7 @@ export default function Header() {
           </div>
 
           <button
-            className="nav-toggle d-none ml-12 smd-d-flex"
+            className={`nav-toggle d-none ml-12 smd-d-flex ${isMobileMenuOpen ? 'opened' : ''}`}
             onClick={toggleMobileMenu}
             type="button"
             aria-label="Toggle mobile menu"
