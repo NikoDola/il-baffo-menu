@@ -14,7 +14,7 @@ export default function Menu() {
     <div id="menu" className="gallery bg-black d-flex flex-column flex-center">
       <div className="container-xl section-padding with-bottom">
         <h2 className="text-white text-center f-1 smd-f-2 sm-f-3 family-third">
-          Нашето мени
+          Нашата Пица
         </h2>
         <br />
 

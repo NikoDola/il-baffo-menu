@@ -1,230 +1,407 @@
 [
   {
     "name": "Marinara",
-    "price": 290,
-    "description": ["salsa di pomodoro", "acciughe", "capperi", "olive", "origano", "olio extra vergine d'oliva"],
+    "price": 330,
+    "description": [
+      "salsa di pomodoro",
+      "acciughe",
+      "capperi",
+      "olive",
+      "origano",
+      "olio extra vergine d'oliva"
+    ],
     "category": "pizze"
   },
   {
     "name": "Margherita",
-    "price": 350,
-    "description": ["salsa di pomodoro", "mozzarella", "basilico", "parmigiano", "olio extra vergine d'oliva"],
+    "price": 370,
+    "description": [
+      "salsa di pomodoro",
+      "mozzarella",
+      "basilico",
+      "parmigiano",
+      "olio extra vergine d'oliva"
+    ],
     "category": "pizze"
   },
   {
     "name": "Capricciosa",
-    "price": 330,
-    "description": ["salsa di pomodoro", "formaggio giallo", "prosciutto", "funghi", "origano", "olio extra vergine d'oliva"],
+    "price": 360,
+    "description": [
+      "salsa di pomodoro",
+      "formaggio giallo",
+      "prosciutto",
+      "funghi",
+      "origano",
+      "olio extra vergine d'oliva"
+    ],
     "category": "pizze"
   },
   {
     "name": "Quattro formagi",
-    "price": 390,
-    "description": ["mozzarella", "formaggio di pecora", "gorgonzola", "parmigiano"],
+    "price": 460,
+    "description": [
+      "mozzarella",
+      "formaggio di pecora",
+      "gorgonzola",
+      "parmigiano"
+    ],
     "category": "pizze"
   },
   {
     "name": "Quattro stagioni",
-    "price": 380,
-    "description": ["salsa di pomodoro", "mozzarella", "carciofi", "funghi", "olive", "pomodori secchi", "salame piccante", "olio extra vergine d'oliva"],
+    "price": 420,
+    "description": [
+      "salsa di pomodoro",
+      "mozzarella",
+      "carciofi",
+      "funghi",
+      "olive",
+      "pomodori secchi",
+      "salame piccante",
+      "olio extra vergine d'oliva"
+    ],
     "category": "pizze"
   },
   {
     "name": "Valtellina",
-    "price": 440,
-    "description": ["salsa di pomodoro", "mozzarella", "rucola", "prosciutto", "pomodoro fresco", "scaglie di parmigiano"],
+    "price": 480,
+    "description": [
+      "salsa di pomodoro",
+      "mozzarella",
+      "rucola",
+      "prosciutto",
+      "pomodoro fresco",
+      "scaglie di parmigiano"
+    ],
     "category": "pizze"
   },
   {
     "name": "Il Baffo",
-    "price": 420,
-    "description": ["crema", "mozzarella", "mortadella", "stracciatella al tartufo", "pistacchi", "pomodori secchi"],
+    "price": 460,
+    "description": [
+      "crema",
+      "mozzarella",
+      "mortadella",
+      "stracciatella al tartufo",
+      "pistacchi",
+      "pomodori secchi"
+    ],
     "category": "pizze"
   },
   {
     "name": "Primavera",
-    "price": 350,
-    "description": ["salsa di pomodoro", "mozzarella", "zucchine", "pomodoro nero", "peperoni arrostiti", "pomodori secchi", "olio extra vergine d'oliva"],
+    "price": 390,
+    "description": [
+      "salsa di pomodoro",
+      "mozzarella",
+      "zucchine",
+      "pomodoro nero",
+      "peperoni arrostiti",
+      "pomodori secchi",
+      "olio extra vergine d'oliva"
+    ],
     "category": "pizze"
   },
   {
     "name": "Diavola",
-    "price": 420,
-    "description": ["salsa di pomodoro", "mozzarella", "pancetta", "salame piccante calabrese", "olio extra vergine d'oliva"],
+    "price": 450,
+    "description": [
+      "salsa di pomodoro",
+      "mozzarella",
+      "pancetta",
+      "salame piccante calabrese",
+      "olio extra vergine d'oliva"
+    ],
     "category": "pizze"
   },
   {
     "name": "Wurstel",
-    "price": 350,
-    "description": ["salsa di pomodoro", "mozzarella", "würstel", "patatine fritte"],
+    "price": 380,
+    "description": [
+      "salsa di pomodoro",
+      "mozzarella",
+      "würstel",
+      "patatine fritte"
+    ],
     "category": "pizze"
   },
   {
     "name": "Tonno",
-    "price": 360,
-    "description": ["salsa di pomodoro", "mozzarella", "tonno", "cipolla", "olive", "basilico", "olio extra vergine d'oliva"],
+    "price": 390,
+    "description": [
+      "salsa di pomodoro",
+      "mozzarella",
+      "tonno",
+      "cipolla",
+      "olive",
+      "basilico",
+      "olio extra vergine d'oliva"
+    ],
     "category": "pizze"
   },
   {
     "name": "Peperoni Maiale/Manzo",
-    "price": [360, 380],
-    "description": ["salsa di pomodoro", "formaggio giallo", "origano", "kulen / sujuk", "olio extra vergine d'oliva"],
+    "price": [
+      390,
+      430
+    ],
+    "description": [
+      "salsa di pomodoro",
+      "formaggio giallo",
+      "origano",
+      "kulen / sujuk",
+      "olio extra vergine d'oliva"
+    ],
     "category": "pizze"
   },
   {
     "name": "Quattro salumi",
-    "price": 390,
-    "description": ["salsa di pomodoro", "formaggio giallo", "capocollo", "pancetta", "kulen", "salame stagionato", "olio extra vergine d'oliva"],
+    "price": 420,
+    "description": [
+      "salsa di pomodoro",
+      "formaggio giallo",
+      "capocollo",
+      "pancetta",
+      "kulen",
+      "salame stagionato",
+      "olio extra vergine d'oliva"
+    ],
     "category": "pizze"
   },
   {
     "name": "Pastrmajlia pollo/maiale",
-    "price": 360,
-    "description": ["pollo / maiale"],
+    "price": 380,
+    "description": [
+      "pollo / maiale"
+    ],
     "category": "pizze"
   },
   {
     "name": "Cose Rose",
-    "price": 410,
-    "description": ["crema", "mozzarella", "spinaci", "peperoncino", "uovo"],
+    "price": 440,
+    "description": [
+      "crema",
+      "mozzarella",
+      "spinaci",
+      "peperoncino",
+      "uovo"
+    ],
     "category": "pizze"
   },
   {
     "name": "Regina",
-    "price": 430,
-    "description": ["crema", "mozzarella", "funghi porcini", "prosciutto affumicato"],
+    "price": 460,
+    "description": [
+      "crema",
+      "mozzarella",
+      "funghi porcini",
+      "prosciutto affumicato"
+    ],
     "category": "pizze"
   },
   {
     "name": "Lampone",
     "price": 190,
-    "description": ["lamponi", "coulis", "prosecco"],
+    "description": [
+      "lamponi",
+      "coulis",
+      "prosecco"
+    ],
     "category": "Aperitivi"
   },
   {
     "name": "Bellini",
     "price": 190,
-    "description": ["pesca", "coulis", "prosecco"],
+    "description": [
+      "pesca",
+      "coulis",
+      "prosecco"
+    ],
     "category": "Aperitivi"
   },
   {
     "name": "Rossini",
     "price": 190,
-    "description": ["fragola", "coulis", "prosecco"],
+    "description": [
+      "fragola",
+      "coulis",
+      "prosecco"
+    ],
     "category": "Aperitivi"
   },
   {
     "name": "Aperol Spritz",
     "price": 240,
-    "description": ["aperol", "prosecco", "soda", "arancia"],
+    "description": [
+      "aperol",
+      "prosecco",
+      "soda",
+      "arancia"
+    ],
     "category": "Aperitivi"
   },
   {
     "name": "Negroni",
     "price": 240,
-    "description": ["gin", "martini rosso", "campari", "arancia"],
+    "description": [
+      "gin",
+      "martini rosso",
+      "campari",
+      "arancia"
+    ],
     "category": "Aperitivi"
   },
   {
     "name": "Parmigiana",
-    "price": 190,
-    "description": ["pomodoro nero", "parmigiano", "salsa di pomodoro", "olio extra vergine d'oliva"],
+    "price": 230,
+    "description": [
+      "pomodoro nero",
+      "parmigiano",
+      "salsa di pomodoro",
+      "olio extra vergine d'oliva"
+    ],
     "category": "Antipasti"
   },
   {
     "name": "Antipasto misto di terra (per 3-4 persone)",
     "price": 790,
-    "description": ["Piatto con formaggi italiani selezionati (gorgonzola, pecorino romano, parmigiano stagionato 24 mesi), salumi italiani (ventricina, schiacciata, prosciutto di Parma e prosciutto di manzo), verdure e bruschette"],
+    "description": [
+      "Piatto con formaggi italiani selezionati (gorgonzola, pecorino romano, parmigiano stagionato 24 mesi), salumi italiani (ventricina, schiacciata, prosciutto di Parma e prosciutto di manzo), verdure e bruschette"
+    ],
     "category": "Antipasti"
   },
   {
     "name": "Tris di Bruchette",
-    "price": 190,
-    "description": ["misto di bruschette"],
+    "price": 240,
+    "description": [
+      "misto di bruschette"
+    ],
     "category": "Antipasti"
   },
   {
     "name": "Polpette al sugo",
-    "price": 210,
-    "description": ["polpette in salsa di pomodoro e parmigiano"],
+    "price": 250,
+    "description": [
+      "polpette in salsa di pomodoro e parmigiano"
+    ],
     "category": "Antipasti"
   },
   {
     "name": "Carpese",
-    "price": 230,
-    "description": ["insalata di mozzarella fresca, pomodoro e olio extra vergine d'oliva"],
+    "price": 260,
+    "description": [
+      "insalata di mozzarella fresca, pomodoro e olio extra vergine d'oliva"
+    ],
     "category": "Antipasti"
   },
   {
     "name": "Bresaola",
-    "price": 460,
-    "description": ["ravioli di bresaola ripieni di rucola e ricotta stagionata, serviti con carciofi, rucola e scaglie di parmigiano"],
+    "price": 480,
+    "description": [
+      "ravioli di bresaola ripieni di rucola e ricotta stagionata, serviti con carciofi, rucola e scaglie di parmigiano"
+    ],
     "category": "Antipasti"
   },
   {
     "name": "Broccoli a modo Mio",
-    "price": 160,
-    "description": ["broccoli con aglio", "peperoncini piccanti", "olio extra vergine d'oliva"],
+    "price": 190,
+    "description": [
+      "broccoli con aglio",
+      "peperoncini piccanti",
+      "olio extra vergine d'oliva"
+    ],
     "category": "Contorni"
   },
   {
     "name": "Patatine fritte",
-    "price": 140,
-    "description": ["patatine fritte"],
+    "price": 160,
+    "description": [
+      "patatine fritte"
+    ],
     "category": "Contorni"
   },
   {
     "name": "Rucola",
-    "price": 190,
-    "description": ["rucola", "pomodoro fresco", "scaglie di parmigiano"],
+    "price": [
+      230,
+      330
+    ],
+    "description": [
+      "rucola",
+      "pomodoro fresco",
+      "scaglie di parmigiano"
+    ],
     "category": "Contorni"
   },
   {
     "name": "Insalata Mista",
-    "price": 150,
-    "description": ["insalata mista"],
+    "price": [
+      180,
+      280
+    ],
+    "description": [
+      "insalata mista"
+    ],
     "category": "Contorni"
   },
   {
     "name": "Caponata",
-    "price": 160,
-    "description": ["misto di verdure fritte con salsa di pomodoro"],
+    "price": 190,
+    "description": [
+      "misto di verdure fritte con salsa di pomodoro"
+    ],
     "category": "Contorni"
   },
   {
     "name": "Affogato al Caffe/+ Liquorevg",
-    "price": [140, 240],
-    "description": ["gelato alla vaniglia con caffè espresso/+ liquore"],
+    "price": [
+      140,
+      240
+    ],
+    "description": [
+      "gelato alla vaniglia con caffè espresso/+ liquore"
+    ],
     "category": "Dolci"
   },
   {
     "name": "Pizza alla Nutella",
     "price": 260,
-    "description": ["pizza alla Nutella"],
+    "description": [
+      "pizza alla Nutella"
+    ],
     "category": "Dolci"
   },
   {
     "name": "Tiramisu",
     "price": 200,
-    "description": ["tiramisù"],
+    "description": [
+      "tiramisù"
+    ],
     "category": "Dolci"
   },
   {
     "name": "Gelati Italiani(vaniglia fragola cioccolato)",
-    "price": 190,
-    "description": ["gelato italiano alla vaniglia, cioccolato, fragola"],
+    "price": 220,
+    "description": [
+      "gelato italiano alla vaniglia, cioccolato, fragola"
+    ],
     "category": "Dolci"
   },
   {
     "name": "Sorbeto al limone",
     "price": 190,
-    "description": ["sorbetto al limone"],
+    "description": [
+      "sorbetto al limone"
+    ],
     "category": "Dolci"
   },
   {
     "name": "Lemon sgroppino",
     "price": 190,
-    "description": ["cocktail sorbetto al limone e prosecco"],
+    "description": [
+      "cocktail sorbetto al limone e prosecco"
+    ],
     "category": "Dolci"
   }
 ]

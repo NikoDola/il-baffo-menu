@@ -1,230 +1,407 @@
 [
   {
     "name": "Marinara",
-    "price": 290,
-    "description": ["salcë domateje", "açuge", "kapari", "ullinj", "rigon", "vaj ulliri ekstra i virgjër"],
+    "price": 330,
+    "description": [
+      "salcë domateje",
+      "açuge",
+      "kapari",
+      "ullinj",
+      "rigon",
+      "vaj ulliri ekstra i virgjër"
+    ],
     "category": "pizze"
   },
   {
     "name": "Margherita",
-    "price": 350,
-    "description": ["salcë domateje", "mozzarella", "borzilok", "parmixhan", "vaj ulliri ekstra i virgjër"],
+    "price": 370,
+    "description": [
+      "salcë domateje",
+      "mozzarella",
+      "borzilok",
+      "parmixhan",
+      "vaj ulliri ekstra i virgjër"
+    ],
     "category": "pizze"
   },
   {
     "name": "Capricciosa",
-    "price": 330,
-    "description": ["salcë domateje", "djathë i verdhë", "proshutë", "kërpudha", "rigon", "vaj ulliri ekstra i virgjër"],
+    "price": 360,
+    "description": [
+      "salcë domateje",
+      "djathë i verdhë",
+      "proshutë",
+      "kërpudha",
+      "rigon",
+      "vaj ulliri ekstra i virgjër"
+    ],
     "category": "pizze"
   },
   {
     "name": "Quattro formagi",
-    "price": 390,
-    "description": ["mozzarella", "djathë deleje", "gorgonzola", "parmixhan"],
+    "price": 460,
+    "description": [
+      "mozzarella",
+      "djathë deleje",
+      "gorgonzola",
+      "parmixhan"
+    ],
     "category": "pizze"
   },
   {
     "name": "Quattro stagioni",
-    "price": 380,
-    "description": ["salcë domateje", "mozzarella", "angjinar", "kërpudha", "ullinj", "domate të thata", "sallam pikant", "vaj ulliri ekstra i virgjër"],
+    "price": 420,
+    "description": [
+      "salcë domateje",
+      "mozzarella",
+      "angjinar",
+      "kërpudha",
+      "ullinj",
+      "domate të thata",
+      "sallam pikant",
+      "vaj ulliri ekstra i virgjër"
+    ],
     "category": "pizze"
   },
   {
     "name": "Valtellina",
-    "price": 440,
-    "description": ["salcë domateje", "mozzarella", "rucola", "proshutë", "domate e freskët", "thekon parmixhani"],
+    "price": 480,
+    "description": [
+      "salcë domateje",
+      "mozzarella",
+      "rucola",
+      "proshutë",
+      "domate e freskët",
+      "thekon parmixhani"
+    ],
     "category": "pizze"
   },
   {
     "name": "Il Baffo",
-    "price": 420,
-    "description": ["krem", "mozzarella", "mortadella", "stracciatella me vaj tartufi", "fistikë", "domate të thata"],
+    "price": 460,
+    "description": [
+      "krem",
+      "mozzarella",
+      "mortadella",
+      "stracciatella me vaj tartufi",
+      "fistikë",
+      "domate të thata"
+    ],
     "category": "pizze"
   },
   {
     "name": "Primavera",
-    "price": 350,
-    "description": ["salcë domateje", "mozzarella", "kungull i njomë", "domate e zezë", "speca të pjekur", "domate të thata", "vaj ulliri ekstra i virgjër"],
+    "price": 390,
+    "description": [
+      "salcë domateje",
+      "mozzarella",
+      "kungull i njomë",
+      "domate e zezë",
+      "speca të pjekur",
+      "domate të thata",
+      "vaj ulliri ekstra i virgjër"
+    ],
     "category": "pizze"
   },
   {
     "name": "Diavola",
-    "price": 420,
-    "description": ["salcë domateje", "mozzarella", "proshutë e tymosur", "sallam pikant Kalabrez", "vaj ulliri ekstra i virgjër"],
+    "price": 450,
+    "description": [
+      "salcë domateje",
+      "mozzarella",
+      "proshutë e tymosur",
+      "sallam pikant Kalabrez",
+      "vaj ulliri ekstra i virgjër"
+    ],
     "category": "pizze"
   },
   {
     "name": "Wurstel",
-    "price": 350,
-    "description": ["salcë domateje", "mozzarella", "salcice", "patate të skuqura"],
+    "price": 380,
+    "description": [
+      "salcë domateje",
+      "mozzarella",
+      "salcice",
+      "patate të skuqura"
+    ],
     "category": "pizze"
   },
   {
     "name": "Tonno",
-    "price": 360,
-    "description": ["salcë domateje", "mozzarella", "ton", "qepë", "ullinj", "borzilok", "vaj ulliri ekstra i virgjër"],
+    "price": 390,
+    "description": [
+      "salcë domateje",
+      "mozzarella",
+      "ton",
+      "qepë",
+      "ullinj",
+      "borzilok",
+      "vaj ulliri ekstra i virgjër"
+    ],
     "category": "pizze"
   },
   {
     "name": "Peperoni Maiale/Manzo",
-    "price": [360, 380],
-    "description": ["salcë domateje", "djathë i verdhë", "rigon", "kulen / suxhuk", "vaj ulliri ekstra i virgjër"],
+    "price": [
+      390,
+      430
+    ],
+    "description": [
+      "salcë domateje",
+      "djathë i verdhë",
+      "rigon",
+      "kulen / suxhuk",
+      "vaj ulliri ekstra i virgjër"
+    ],
     "category": "pizze"
   },
   {
     "name": "Quattro salumi",
-    "price": 390,
-    "description": ["salcë domateje", "djathë i verdhë", "qafë derri", "proshutë e tymosur", "kulen", "sallam i thatë", "vaj ulliri ekstra i virgjër"],
+    "price": 420,
+    "description": [
+      "salcë domateje",
+      "djathë i verdhë",
+      "qafë derri",
+      "proshutë e tymosur",
+      "kulen",
+      "sallam i thatë",
+      "vaj ulliri ekstra i virgjër"
+    ],
     "category": "pizze"
   },
   {
     "name": "Pastrmajlia pollo/maiale",
-    "price": 360,
-    "description": ["pule / derr"],
+    "price": 380,
+    "description": [
+      "pule / derr"
+    ],
     "category": "pizze"
   },
   {
     "name": "Cose Rose",
-    "price": 410,
-    "description": ["krem", "mozzarella", "spinaq", "spec djegës", "vezë"],
+    "price": 440,
+    "description": [
+      "krem",
+      "mozzarella",
+      "spinaq",
+      "spec djegës",
+      "vezë"
+    ],
     "category": "pizze"
   },
   {
     "name": "Regina",
-    "price": 430,
-    "description": ["krem", "mozzarella", "kërpudha porcini", "proshutë e tymosur"],
+    "price": 460,
+    "description": [
+      "krem",
+      "mozzarella",
+      "kërpudha porcini",
+      "proshutë e tymosur"
+    ],
     "category": "pizze"
   },
   {
     "name": "Lampone",
     "price": 190,
-    "description": ["manaferra", "kulís", "prosecco"],
+    "description": [
+      "manaferra",
+      "kulís",
+      "prosecco"
+    ],
     "category": "Aperitivi"
   },
   {
     "name": "Bellini",
     "price": 190,
-    "description": ["pjeshkë", "kulís", "prosecco"],
+    "description": [
+      "pjeshkë",
+      "kulís",
+      "prosecco"
+    ],
     "category": "Aperitivi"
   },
   {
     "name": "Rossini",
     "price": 190,
-    "description": ["luleshtrydhe", "kulís", "prosecco"],
+    "description": [
+      "luleshtrydhe",
+      "kulís",
+      "prosecco"
+    ],
     "category": "Aperitivi"
   },
   {
     "name": "Aperol Spritz",
     "price": 240,
-    "description": ["aperol", "prosecco", "sodë", "portokall"],
+    "description": [
+      "aperol",
+      "prosecco",
+      "sodë",
+      "portokall"
+    ],
     "category": "Aperitivi"
   },
   {
     "name": "Negroni",
     "price": 240,
-    "description": ["xhin", "martini rosso", "campari", "portokall"],
+    "description": [
+      "xhin",
+      "martini rosso",
+      "campari",
+      "portokall"
+    ],
     "category": "Aperitivi"
   },
   {
     "name": "Parmigiana",
-    "price": 190,
-    "description": ["domate e zezë", "parmixhan", "salcë domateje", "vaj ulliri ekstra i virgjër"],
+    "price": 230,
+    "description": [
+      "domate e zezë",
+      "parmixhan",
+      "salcë domateje",
+      "vaj ulliri ekstra i virgjër"
+    ],
     "category": "Antipasti"
   },
   {
     "name": "Antipasto misto di terra (për 3-4 persona)",
     "price": 790,
-    "description": ["Pjatë me djathëra italianë të zgjedhur (gorgonzola, pecorino romano, parmixhan i vjetruar 24 muaj), mishra të thata italiane (ventricina, schiacciata, proshutë Parma dhe proshutë viçi), perime dhe bruschetta"],
+    "description": [
+      "Pjatë me djathëra italianë të zgjedhur (gorgonzola, pecorino romano, parmixhan i vjetruar 24 muaj), mishra të thata italiane (ventricina, schiacciata, proshutë Parma dhe proshutë viçi), perime dhe bruschetta"
+    ],
     "category": "Antipasti"
   },
   {
     "name": "Tris di Bruchette",
-    "price": 190,
-    "description": ["miksim brusketash"],
+    "price": 240,
+    "description": [
+      "miksim brusketash"
+    ],
     "category": "Antipasti"
   },
   {
     "name": "Polpette al sugo",
-    "price": 210,
-    "description": ["qofte në salcë domateje dhe parmixhan"],
+    "price": 250,
+    "description": [
+      "qofte në salcë domateje dhe parmixhan"
+    ],
     "category": "Antipasti"
   },
   {
     "name": "Carpese",
-    "price": 230,
-    "description": ["sallatë me mozzarella të freskët, domate dhe vaj ulliri ekstra i virgjër"],
+    "price": 260,
+    "description": [
+      "sallatë me mozzarella të freskët, domate dhe vaj ulliri ekstra i virgjër"
+    ],
     "category": "Antipasti"
   },
   {
     "name": "Bresaola",
-    "price": 460,
-    "description": ["ravioli me proshutë viçi të mbushura me rucola dhe rikota të vjetruar, e shërbyer me angjinar, rucola dhe thekon parmixhani"],
+    "price": 480,
+    "description": [
+      "ravioli me proshutë viçi të mbushura me rucola dhe rikota të vjetruar, e shërbyer me angjinar, rucola dhe thekon parmixhani"
+    ],
     "category": "Antipasti"
   },
   {
     "name": "Broccoli a modo Mio",
-    "price": 160,
-    "description": ["brokoli me hudhra", "speca djegës", "vaj ulliri ekstra i virgjër"],
+    "price": 190,
+    "description": [
+      "brokoli me hudhra",
+      "speca djegës",
+      "vaj ulliri ekstra i virgjër"
+    ],
     "category": "Contorni"
   },
   {
     "name": "Patatine fritte",
-    "price": 140,
-    "description": ["patate të skuqura"],
+    "price": 160,
+    "description": [
+      "patate të skuqura"
+    ],
     "category": "Contorni"
   },
   {
     "name": "Rucola",
-    "price": 190,
-    "description": ["rucola", "domate e freskët", "thekon parmixhani"],
+    "price": [
+      230,
+      330
+    ],
+    "description": [
+      "rucola",
+      "domate e freskët",
+      "thekon parmixhani"
+    ],
     "category": "Contorni"
   },
   {
     "name": "Insalata Mista",
-    "price": 150,
-    "description": ["sallatë mikse"],
+    "price": [
+      180,
+      280
+    ],
+    "description": [
+      "sallatë mikse"
+    ],
     "category": "Contorni"
   },
   {
     "name": "Caponata",
-    "price": 160,
-    "description": ["miksim perimesh të skuqura me salcë domateje"],
+    "price": 190,
+    "description": [
+      "miksim perimesh të skuqura me salcë domateje"
+    ],
     "category": "Contorni"
   },
   {
     "name": "Affogato al Caffe/+ Liquorevg",
-    "price": [140, 240],
-    "description": ["akullore vanilje me ekspres/+ liker"],
+    "price": [
+      140,
+      240
+    ],
+    "description": [
+      "akullore vanilje me ekspres/+ liker"
+    ],
     "category": "Dolci"
   },
   {
     "name": "Pizza alla Nutella",
     "price": 260,
-    "description": ["pizza Nutella"],
+    "description": [
+      "pizza Nutella"
+    ],
     "category": "Dolci"
   },
   {
     "name": "Tiramisu",
     "price": 200,
-    "description": ["tiramisu"],
+    "description": [
+      "tiramisu"
+    ],
     "category": "Dolci"
   },
   {
     "name": "Gelati Italiani(vaniglia fragola cioccolato)",
-    "price": 190,
-    "description": ["akullore italiane me vanilje, çokollatë, luleshtrydhe"],
+    "price": 220,
+    "description": [
+      "akullore italiane me vanilje, çokollatë, luleshtrydhe"
+    ],
     "category": "Dolci"
   },
   {
     "name": "Sorbeto al limone",
     "price": 190,
-    "description": ["sherbet limoni"],
+    "description": [
+      "sherbet limoni"
+    ],
     "category": "Dolci"
   },
   {
     "name": "Lemon sgroppino",
     "price": 190,
-    "description": ["koktej me sherbet limoni dhe prosecco"],
+    "description": [
+      "koktej me sherbet limoni dhe prosecco"
+    ],
     "category": "Dolci"
   }
 ]

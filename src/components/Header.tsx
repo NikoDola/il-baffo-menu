@@ -166,7 +166,7 @@ export default function Header() {
               href="/menu"
               className="py-24 d-flex px-12 f-weight-500 text-black mdd-px-8 hover-text-primary mdd-f-size-15"
             >
-              <span>НАШЕТО МЕНИ</span>
+              <span>МЕНИ</span>
             </Link>
 
             <Link

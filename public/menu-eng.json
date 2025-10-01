@@ -1,7 +1,7 @@
 [
   {
     "name": "Marinara",
-    "price": 290,
+    "price": 330,
     "description": [
       "tomato sauce",
       "anchovies",
@@ -21,7 +21,7 @@
   },
   {
     "name": "Margherita",
-    "price": 350,
+    "price": 370,
     "description": [
       "tomato sauce",
       "mozzarella",
@@ -40,7 +40,7 @@
   },
   {
     "name": "Capricciosa",
-    "price": 330,
+    "price": 360,
     "description": [
       "tomato sauce",
       "yellow cheese",
@@ -59,7 +59,7 @@
   },
   {
     "name": "Quattro formagi",
-    "price": 390,
+    "price": 460,
     "description": [
       "mozzarella",
       "sheep's cheese",
@@ -76,7 +76,7 @@
   },
   {
     "name": "Quattro stagioni",
-    "price": 380,
+    "price": 420,
     "description": [
       "tomato sauce",
       "mozzarella",
@@ -97,7 +97,7 @@
   },
   {
     "name": "Valtellina",
-    "price": 440,
+    "price": 480,
     "description": [
       "tomato sauce",
       "mozzarella",
@@ -116,7 +116,7 @@
   },
   {
     "name": "Il Baffo",
-    "price": 420,
+    "price": 460,
     "description": [
       "cream",
       "mozzarella",
@@ -135,7 +135,7 @@
   },
   {
     "name": "Primavera",
-    "price": 350,
+    "price": 390,
     "description": [
       "tomato sauce",
       "mozzarella",
@@ -155,7 +155,7 @@
   },
   {
     "name": "Diavola",
-    "price": 420,
+    "price": 450,
     "description": [
       "tomato sauce",
       "mozzarella",
@@ -173,7 +173,7 @@
   },
   {
     "name": "Wurstel",
-    "price": 350,
+    "price": 380,
     "description": [
       "tomato sauce",
       "mozzarella",
@@ -190,7 +190,7 @@
   },
   {
     "name": "Tonno",
-    "price": 360,
+    "price": 390,
     "description": ["tomato sauce", "mozzarella", "tuna", "onion", "olives", "basil", "extra virgin olive oil"],
     "category": "pizze",
     "meal_type": "main_course",
@@ -202,7 +202,7 @@
   },
   {
     "name": "Peperoni Maiale/Manzo",
-    "price": [360, 380],
+    "price": [390, 430],
     "description": ["tomato sauce", "yellow cheese", "oregano", "kulen / sujuk", "extra virgin olive oil"],
     "category": "pizze",
     "meal_type": "main_course",
@@ -214,7 +214,7 @@
   },
   {
     "name": "Quattro salumi",
-    "price": 390,
+    "price": 420,
     "description": ["tomato sauce", "yellow cheese", "pork neck", "bacon", "kulen", "dry sausage", "extra virgin olive oil"],
     "category": "pizze",
     "meal_type": "main_course",
@@ -226,7 +226,7 @@
   },
   {
     "name": "Pastrmajlia pollo/maiale",
-    "price": 360,
+    "price": 380,
     "description": ["chicken / pork"],
     "category": "pizze",
     "meal_type": "main_course",
@@ -238,7 +238,7 @@
   },
   {
     "name": "Cose Rose",
-    "price": 410,
+    "price": 440,
     "description": ["cream", "mozzarella", "spinach", "chili", "egg"],
     "category": "pizze",
     "meal_type": "main_course",
@@ -250,7 +250,7 @@
   },
   {
     "name": "Regina",
-    "price": 430,
+    "price": 460,
     "description": ["cream", "mozzarella", "porcini mushrooms", "smoked prosciutto"],
     "category": "pizze",
     "meal_type": "main_course",
@@ -312,7 +312,7 @@
   },
   {
     "name": "Parmigiana",
-    "price": 190,
+    "price": 230,
     "description": ["black tomato", "parmesan", "tomato sauce", "extra virgin olive oil"],
     "category": "Antipasti",
     "meal_type": "starter_food",
@@ -323,7 +323,7 @@
   },
   {
     "name": "Antipasto misto di terra (for 3-4 people)",
-    "price": 790,
+    "price": 890,
     "description": ["Platter with selected Italian cheeses (gorgonzola, pecorino romano, 24-month aged parmesan), cured Italian meats (ventricina, schiacciata, Parma ham and beef prosciutto), vegetables and bruschetta"],
     "category": "Antipasti",
     "meal_type": "starter_food",
@@ -334,7 +334,7 @@
   },
   {
     "name": "Tris di Bruchette",
-    "price": 190,
+    "price": 240,
     "description": ["mix of bruschetta"],
     "category": "Antipasti",
     "meal_type": "starter_food",
@@ -345,7 +345,7 @@
   },
   {
     "name": "Polpette al sugo",
-    "price": 210,
+    "price": 250,
     "description": ["meatballs in tomato sauce and parmesan"],
     "category": "Antipasti",
     "meal_type": "starter_food",
@@ -356,7 +356,7 @@
   },
   {
     "name": "Carpese",
-    "price": 230,
+    "price": 260,
     "description": ["fresh mozzarella salad, tomato and extra virgin olive oil"],
     "category": "Antipasti",
     "meal_type": "starter_food",
@@ -367,7 +367,7 @@
   },
   {
     "name": "Bresaola",
-    "price": 460,
+    "price": 480,
     "description": ["beef prosciutto ravioli filled with arugula and aged ricotta, served with artichoke, arugula and parmesan flakes"],
     "category": "Antipasti",
     "meal_type": "starter_food",
@@ -377,7 +377,7 @@
     }
   },{
     "name": "Broccoli a modo Mio",
-    "price": 160,
+    "price": 190,
     "description": ["broccoli with garlic", "hot peppers", "extra virgin olive oil"],
     "category": "Contorni",
     "meal_type": "side_dish",
@@ -387,7 +387,7 @@
   },
   {
     "name": "Patatine fritte",
-    "price": 140,
+    "price": 160,
     "description": ["french fries"],
     "category": "Contorni",
     "meal_type": "side_dish",
@@ -397,7 +397,7 @@
   },
   {
     "name": "Rucola",
-    "price": 190,
+    "price": [230, 330],
     "description": ["arugula", "fresh tomato", "parmesan flakes"],
     "category": "Contorni",
     "meal_type": "side_dish",
@@ -408,7 +408,7 @@
   },
   {
     "name": "Insalata Mista",
-    "price": 150,
+    "price": [180, 280],
     "description": ["mixed salad"],
     "category": "Contorni",
     "meal_type": "side_dish",
@@ -420,7 +420,7 @@
   },
   {
     "name": "Caponata",
-    "price": 160,
+    "price": 190,
     "description": ["fried vegetable mix with tomato sauce"],
     "category": "Contorni",
     "meal_type": "side_dish",
@@ -462,7 +462,7 @@
   },
   {
     "name": "Gelati Italiani(vaniglia fragola cioccolato)",
-    "price": 190,
+    "price": 220,
     "description": ["Italian ice cream with vanilla, chocolate, strawberry"],
     "category": "Dolci",
     "meal_type": "dessert",
